@@ -12,4 +12,4 @@ rendercv new "Your Full Name"
 rendercv render "Your_Name_CV.yaml"
 ```
 
-More documentation : [RenderCV](!https://docs.rendercv.com/)
+More documentation : [RenderCV](https://docs.rendercv.com/)
