@@ -1,48 +1,36 @@
 cv:
   name: Putu Gede Pradana Adnyana
-  location: Your Location
-  email: youremail@yourdomain.com
-  phone: tel:+90-541-999-99-99
-  website: https://yourwebsite.com/
+  location: Bali, Indonesia
+  email: work.pradana@gmail.com
+  phone: tel:+62-812-373-743-63
+  website: https://pradanaadn.github.io/about/
   social_networks:
     - network: LinkedIn
-      username: yourusername
+      username: pradanaadn
     - network: GitHub
-      username: yourusername
+      username: pradanaadn
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
-        a LaTeX-based CV/resume framework. It allows you to create
-        a high-quality CV or resume as a PDF file from a YAML
-        file, with **full Markdown syntax support** and **complete
-        control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section
-          contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*,
-          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-          *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and
-          start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-          you can find a comprehensive user guide for RenderCV.'
+    summary:
+      - 'Highly motivated and results-oriented Electrical Engineering student  with a strong focus in Computer Engineering and Artificial Intelligence. Seeking a challenging role to leverage my technical expertise in machine learning and
+        software development. Proven ability to lead teams, analyze data, and build real-world AI solutions.'
+
     education:
-      - institution: University of Pennsylvania
-        area: Computer Science
-        degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
+      - institution: Udayana University
+        area: Electrical and Computer Engineering
+        degree: BEng
+        start_date: 2020-09
+        end_date: 2024-08
+        
         highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
+          - 'GPA: 3.97/4.0 ([transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))'
+          - '**Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)'
+          - '**Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP '
     experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
+      - company: Ruang Guru
+        position: Artificial Intelligence Engineer Intern
+        location: Jakarta, Indonesia
+        start_date: 2024-09
+        end_date: 2024-12
         highlights:
           - Reduced time to render user buddy lists by 75% by
             implementing a prediction algorithm
@@ -51,11 +39,11 @@ cv:
             and provide metadata to a system-wide search database
           - Redesigned chat file format and implemented backward
             compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
+      - company: XL Axiata (X-Camp)
+        position: Product Development Intern
+        location: Jakarta, Indonesia
+        start_date: 2024-08
+        end_date: 2024-08
         highlights:
           - Designed a UI for the VS open file switcher (Ctrl-Tab)
             and extended it to tool windows
@@ -68,14 +56,6 @@ cv:
             XML docs from XML Schema
           - Automated the extraction and processing of large datasets
             from legacy systems using SQL and Perl scripts
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
     projects:
       - name: Multi-User Drawing Tool
         date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
@@ -104,20 +84,20 @@ cv:
         details: .NET, Microsoft SQL Server, XCode, Interface
           Builder
 design:
-  theme: classic
-  font: Source Sans 3
+  theme: engineeringresumes
+  font: Charter
   font_size: 10pt
   page_size: letterpaper
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_page_numbering: false
+  color: black
+  disable_external_link_icons: true
+  disable_page_numbering: true
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
+  disable_last_updated_date: true
   last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  seperator_between_connections: ''
-  use_icons_for_connections: true
+  header_font_size: 25 pt
+  text_alignment: left-aligned
+  seperator_between_connections: $|$
+  use_icons_for_connections: false
   margins:
     page:
       top: 2 cm
@@ -128,16 +108,14 @@ design:
       top: 0.3 cm
       bottom: 0.2 cm
     entry_area:
-      left_and_right: 0.2 cm
+      left_and_right: 0 cm
       vertical_between: 0.2 cm
       date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
     highlights_area:
       top: 0.10 cm
-      left: 0.4 cm
+      left: 0 cm
       vertical_between_bullet_points: 0.10 cm
     header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in: []
+      vertical_between_name_and_connections: 5 pt
+      bottom: 5 pt
+      horizontal_between_connections: 10 pt
