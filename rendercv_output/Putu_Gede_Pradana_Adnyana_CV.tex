@@ -14,7 +14,7 @@
 \usepackage{tabularx} % for making tables with fixed width columns
 \usepackage{array} % tabularx requires this
 \usepackage[dvipsnames]{xcolor} % for coloring text
-\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
+\definecolor{primaryColor}{RGB}{0, 128, 0} % define primary color
 \usepackage{enumitem} % for customizing lists
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
@@ -54,7 +54,13 @@
 \setlength{\parindent}{0pt} % no indentation
 \setlength{\topskip}{0pt} % no top skip
 \setlength{\columnsep}{0.15cm} % set column seperation
-\pagenumbering{gobble} % no page numbering
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Putu Gede Pradana Adnyana - Page \thepage{} of \pageref*{LastPage}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
@@ -140,7 +146,7 @@
         \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in October 2024}\hspace{\widthof{Last updated in October 2024}}
+        \small\color{gray}\textit{Last updated in November 2024}\hspace{\widthof{Last updated in November 2024}}
     }}}%
   }%
 }%
@@ -149,6 +155,7 @@
 \let\hrefWithoutArrow\href
 
 % new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
 
 
 \begin{document}
@@ -159,33 +166,34 @@
     \newsavebox\ANDbox
     \sbox\ANDbox{$|$}
 
+    \placelastupdatedtext
     \begin{header}
         \fontsize{25 pt}{25 pt}\selectfont Putu Gede Pradana Adnyana
 
         \vspace{5 pt}
 
         \normalsize
-        \mbox{Bali, Indonesia}%
+        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Bali, Indonesia}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{mailto:work.pradana@gmail.com}{work.pradana@gmail.com}}%
+        \mbox{\hrefWithoutArrow{mailto:work.pradanaadn@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}work.pradanaadn@gmail.com}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{tel:+62-812-3737-4363}{0812-3737-4363}}%
+        \mbox{\hrefWithoutArrow{tel:+62-812-3737-4363}{{\footnotesize\faPhone*}\hspace*{0.13cm}0812-3737-4363}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://pradanaadn.github.io/about/}{pradanaadn.github.io/about}}%
+        \mbox{\hrefWithoutArrow{https://pradanaadn.github.io/about/}{{\footnotesize\faLink}\hspace*{0.13cm}pradanaadn.github.io/about}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://linkedin.com/in/pradanaadn}{linkedin.com/in/pradanaadn}}%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/pradanaadn}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}pradanaadn}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://github.com/pradanaadn}{github.com/pradanaadn}}%
+        \mbox{\hrefWithoutArrow{https://github.com/pradanaadn}{{\footnotesize\faGithub}\hspace*{0.13cm}pradanaadn}}%
     \end{header}
 
     \vspace{5 pt - 0.3 cm}
@@ -215,12 +223,118 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item GPA: 3.97/4.0 (\href{https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing}{transcripts})
+                \item GPA: 3.97/4.0 (\href{https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing}{Transcripts})
                 \item \textbf{Final Project:} Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)
                 \item \textbf{Coursework:} Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP 
             \end{highlights}
         \end{onecolentry}
 
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Mar 2024 – July 2024
+        }
+            \textbf{Mastering AI: From Foundations to Applications by Ruangguru}, \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item GPA: 90 (\href{https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view}{Transcripts})
+                \item \textbf{Coursework:}  Python, Data Cleaning, Data Visualization, Statistic, Linear algebra and calculus, Machine Learning, Deep Learning, CNN and Computer Vision, Pytorch, NLP and Transformer, MLOps
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Feb 2023 – July 2023
+        }
+            \textbf{Bangkit by Google, Goto and Traveloka}, Machine Learning\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item GPA: 95 (\href{https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view}{Transcripts})
+                \item \textbf{Coursework:} Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Technical Skills}
+
+
+
+        
+        \begin{onecolentry}
+            \textbf{Language:} Python (Advanced), PHP (Intermediate), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Data Analysis and Manipulation:} Pandas, Numpy
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Data Vizualization:} Seaborn, Matplotlib, Plotly, Tableau
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Machine Learning Modeling:} Pytorch, Tensorflow, Sklearn, Huggingface Transformer
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Deployment:} Flask, FastAPI, Docker, Git, Streamlit, Gradio
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Cloud Service:} Azure AI Service
+        \end{onecolentry}
+
+
+    
+    \section{Soft Skills}
+
+
+
+        
+        \begin{onecolentry}
+            Project Management, Agile development, Time management, Troubleshooting and Problem Solving, Data Analytics
+        \end{onecolentry}
+
+
+    
+    \section{Language Proficiency}
+
+
+
+        
+        \begin{onecolentry}
+            Indonesia (Native), English (Intermediate)
+        \end{onecolentry}
+
+
+    
+    \section{Certification}
+
+
+
+        
+        \begin{onecolentry}
+            Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associate
+        \end{onecolentry}
 
 
     
@@ -230,16 +344,15 @@
 
         
         \begin{twocolentry}{
-            Sept 2024 – Dec 2024
+            Sept 2024 – present
         }
             \textbf{Artificial Intelligence Engineer Intern}, Ruang Guru -- Jakarta, Indonesia\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                \item Redesigned chat file format and implemented backward compatibility for search
+                \item Developed Centralized LLM Playground: Created a centralized playground integrating multiple third-party LLMs (e.g., OpenAI, Gemini, Anthropic) to streamline model access for product and developer teams, reducing setup time by 30\%.
+                \item Automated Deployment Pipeline: Implemented CI/CD for streamlined deployment of the playground, reducing deployment errors and downtime by 25\%.
             \end{highlights}
         \end{onecolentry}
 
@@ -254,32 +367,34 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-                \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+                \item Integrated RTSP Cameras into the JemaahCounter System, enhancing input processing capabilities by 25\%, leading to more accurate and scalable system monitoring.
+                \item Improved JemaahCounter performance by 40\% using multithreading and CUDA, boosting data processing speed and efficiency for real-time analytics.
+                \item Developed web and desktop applications that facilitated monitoring of JemaahCounter, increasing system oversight and user accessibility by 50\%
+                \item Installed and configured Jetson Nano for YOLO model deployment, achieving successful execution of YOLOv8/Helomet and YOLOv5 COCO models, which supported AI-driven tasks by up to 30\% faster with CUDA.
+                \item Set up and managed MQTT client integration with ThingsBoard, handling telemetry data updates and validating RPC requests, enhancing Smart Locker system reliability by 20\%.
             \end{highlights}
         \end{onecolentry}
 
 
 
     
-    \section{Projects}
+    \section{Personal Projects}
 
 
 
         
         \begin{twocolentry}{
-            \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
+            \href{https://github.com/pradanaadn/sucidal-text-classification}{Project Link}
         }
-            \textbf{Multi-User Drawing Tool}\end{twocolentry}
+            \textbf{Suicidal Intent Classification Using Sentiment Analysis}\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-                \item Tools Used: C++, MFC
+                \item Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98\%.
+                \item Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50\% suicidal, 50\% non-suicidal).
+                \item Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
+                \item Tools Used: Python, Huggingface Transformer, Gradio
             \end{highlights}
         \end{onecolentry}
 
@@ -287,51 +402,36 @@
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
+            \href{https://github.com/Talenta-AI-2}{Project Link}
         }
-            \textbf{Synchronized Desktop Calendar}\end{twocolentry}
+            \textbf{UmMeals – Maternal and Child Nutrition App}\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-                \item Tools Used: C\#, .NET, SQL, XML
+                \item Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
+                \item Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
+                \item Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI 
             \end{highlights}
         \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
-        \begin{twocolentry}{
-            2002
-        }
-            \textbf{Custom Operating System}\end{twocolentry}
+        \begin{onecolentry}
+            \textbf{Bangkit Capstone Project : Linguity, English Pronunciation Mastery App}\end{onecolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-                \item Tools Used: C
+                \item Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20\%.
+                \item Identified and preprocessed multiple datasets, streamlining data preparation for model training.
+                \item Developed a CNN model in Python using TensorFlow, achieving a 90\%+ accuracy in predicting spoken words.
+                \item Deployed the model via a REST API using Flask, enabling efficient user interaction and integration.
+                \item Tools Used: Python, Tensorflow, Flask, Google Cloud Platform
             \end{highlights}
         \end{onecolentry}
 
-
-
-    
-    \section{Technologies}
-
-
-
-        
-        \begin{onecolentry}
-            \textbf{Languages:} C++, C, Java, Objective-C, C\#, SQL, JavaScript
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
-
-        \begin{onecolentry}
-            \textbf{Technologies:} .NET, Microsoft SQL Server, XCode, Interface Builder
-        \end{onecolentry}
 
 
     

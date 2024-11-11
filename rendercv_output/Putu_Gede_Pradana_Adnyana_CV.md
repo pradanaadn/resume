@@ -1,7 +1,7 @@
 # Putu Gede Pradana Adnyana's CV
 
 - Phone: +62 812 3737 4363
-- Email: [work.pradana@gmail.com](mailto:work.pradana@gmail.com)
+- Email: [work.pradanaadn@gmail.com](mailto:work.pradanaadn@gmail.com)
 - Location: Bali, Indonesia
 - Website: [pradanaadn.github.ioabout](https://pradanaadn.github.io/about/)
 - LinkedIn: [pradanaadn](https://linkedin.com/in/pradanaadn)
@@ -17,51 +17,83 @@ Highly motivated and results-oriented Electrical Engineering student  with a str
 ## Udayana University, BEng in Electrical and Computer Engineering
 
 - Sept 2020 – Aug 2024
-- GPA: 3.97/4.0 ([transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
+- GPA: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
 - **Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)
 - **Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP 
+
+## Mastering AI: From Foundations to Applications by Ruangguru, 
+
+- Mar 2024 – July 2024
+- GPA: 90 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))
+- **Coursework:**  Python, Data Cleaning, Data Visualization, Statistic, Linear algebra and calculus, Machine Learning, Deep Learning, CNN and Computer Vision, Pytorch, NLP and Transformer, MLOps
+
+## Bangkit by Google, Goto and Traveloka, Machine Learning
+
+- Feb 2023 – July 2023
+- GPA: 95 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))
+- **Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment
+
+# Technical Skills
+
+- Language: Python (Advanced), PHP (Intermediate), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
+- Data Analysis and Manipulation: Pandas, Numpy
+- Data Vizualization: Seaborn, Matplotlib, Plotly, Tableau
+- Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
+- Deployment: Flask, FastAPI, Docker, Git, Streamlit, Gradio
+- Cloud Service: Azure AI Service
+# Soft Skills
+
+Project Management, Agile development, Time management, Troubleshooting and Problem Solving, Data Analytics
+
+# Language Proficiency
+
+Indonesia (Native), English (Intermediate)
+
+# Certification
+
+Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associate
 
 # Experience
 
 ## Ruang Guru, Artificial Intelligence Engineer Intern
 
-- Sept 2024 – Dec 2024
+- Sept 2024 – present
 - Jakarta, Indonesia
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- Developed Centralized LLM Playground: Created a centralized playground integrating multiple third-party LLMs (e.g., OpenAI, Gemini, Anthropic) to streamline model access for product and developer teams, reducing setup time by 30%.
+- Automated Deployment Pipeline: Implemented CI/CD for streamlined deployment of the playground, reducing deployment errors and downtime by 25%.
 
 ## XL Axiata (X-Camp), Product Development Intern
 
 - Aug 2024 – Aug 2024
 - Jakarta, Indonesia
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- Integrated RTSP Cameras into the JemaahCounter System, enhancing input processing capabilities by 25%, leading to more accurate and scalable system monitoring.
+- Improved JemaahCounter performance by 40% using multithreading and CUDA, boosting data processing speed and efficiency for real-time analytics.
+- Developed web and desktop applications that facilitated monitoring of JemaahCounter, increasing system oversight and user accessibility by 50%
+- Installed and configured Jetson Nano for YOLO model deployment, achieving successful execution of YOLOv8/Helomet and YOLOv5 COCO models, which supported AI-driven tasks by up to 30% faster with CUDA.
+- Set up and managed MQTT client integration with ThingsBoard, handling telemetry data updates and validating RPC requests, enhancing Smart Locker system reliability by 20%.
 
-# Projects
+# Personal Projects
 
-## Multi-User Drawing Tool
+## Suicidal Intent Classification Using Sentiment Analysis
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+- [Project Link](https://github.com/pradanaadn/sucidal-text-classification)
+- Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98%.
+- Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50% suicidal, 50% non-suicidal).
+- Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
+- Tools Used: Python, Huggingface Transformer, Gradio
 
-## Synchronized Desktop Calendar
+## UmMeals – Maternal and Child Nutrition App
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+- [Project Link](https://github.com/Talenta-AI-2)
+- Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
+- Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
+- Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI 
 
-## Custom Operating System
+## Bangkit Capstone Project : Linguity, English Pronunciation Mastery App
 
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+- Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20%.
+- Identified and preprocessed multiple datasets, streamlining data preparation for model training.
+- Developed a CNN model in Python using TensorFlow, achieving a 90%+ accuracy in predicting spoken words.
+- Deployed the model via a REST API using Flask, enabling efficient user interaction and integration.
+- Tools Used: Python, Tensorflow, Flask, Google Cloud Platform
 
-# Technologies
-
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
