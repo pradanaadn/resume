@@ -30,7 +30,7 @@ Highly motivated and results-oriented Electrical Engineering student  with a str
 ## Bangkit by Google, Goto and Traveloka, Machine Learning
 
 - Feb 2023 – July 2023
-- GPA: 95 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))
+- GPA: 95 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))
 - **Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment
 
 # Technical Skills
@@ -39,6 +39,7 @@ Highly motivated and results-oriented Electrical Engineering student  with a str
 - Data Analysis and Manipulation: Pandas, Numpy
 - Data Vizualization: Seaborn, Matplotlib, Plotly, Tableau
 - Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
+- Large Language Model: Langchain, VertexAI, OpenAI, Anthropic
 - Deployment: Flask, FastAPI, Docker, Git, Streamlit, Gradio
 - Cloud Service: Azure AI Service
 # Soft Skills
@@ -76,7 +77,7 @@ Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associa
 
 ## Suicidal Intent Classification Using Sentiment Analysis
 
-- [Project Link](https://github.com/pradanaadn/sucidal-text-classification)
+- ([Project Link](https://github.com/pradanaadn/sucidal-text-classification))
 - Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98%.
 - Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50% suicidal, 50% non-suicidal).
 - Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
@@ -84,13 +85,14 @@ Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associa
 
 ## UmMeals – Maternal and Child Nutrition App
 
-- [Project Link](https://github.com/Talenta-AI-2)
+- ([Project Link](https://github.com/Talenta-AI-2))
 - Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
 - Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
 - Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI 
 
 ## Bangkit Capstone Project : Linguity, English Pronunciation Mastery App
 
+- ([Project Link](https://github.com/Linguity))
 - Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20%.
 - Identified and preprocessed multiple datasets, streamlining data preparation for model training.
 - Developed a CNN model in Python using TensorFlow, achieving a 90%+ accuracy in predicting spoken words.

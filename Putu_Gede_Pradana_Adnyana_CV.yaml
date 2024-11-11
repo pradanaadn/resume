@@ -39,7 +39,7 @@ cv:
         start_date: 2023-02
         end_date: 2023-07
         highlights:
-          - 'GPA: 95 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))'
+          - 'GPA: 95 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))'
           - '**Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment'
 
     technical_skills:
@@ -51,6 +51,8 @@ cv:
         details: Seaborn, Matplotlib, Plotly, Tableau
       - label: Machine Learning Modeling
         details: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
+      - label: Large Language Model
+        details: Langchain, VertexAI, OpenAI, Anthropic
       - label: Deployment
         details: Flask, FastAPI, Docker, Git, Streamlit, Gradio
       - label: Cloud Service
@@ -84,19 +86,20 @@ cv:
           - Set up and managed MQTT client integration with ThingsBoard, handling telemetry data updates and validating RPC requests, enhancing Smart Locker system reliability by 20%.
     personal_projects:
       - name: Suicidal Intent Classification Using Sentiment Analysis
-        date: '[Project Link](https://github.com/pradanaadn/sucidal-text-classification)'
+        date: '([Project Link](https://github.com/pradanaadn/sucidal-text-classification))'
         highlights:
           - Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98%.
           - Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50% suicidal, 50% non-suicidal).
           - Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
           - 'Tools Used: Python, Huggingface Transformer, Gradio'
       - name: UmMeals – Maternal and Child Nutrition App
-        date: '[Project Link](https://github.com/Talenta-AI-2)'
+        date: '([Project Link](https://github.com/Talenta-AI-2))'
         highlights:
           - Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
           - Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
           - 'Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI '
       - name: 'Bangkit Capstone Project : Linguity, English Pronunciation Mastery App'
+        date: '([Project Link](https://github.com/Linguity))'
         highlights:
           - Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20%.
           - Identified and preprocessed multiple datasets, streamlining data preparation for model training.
@@ -111,7 +114,7 @@ design:
   font: Charter
   font_size: 10pt
   page_size: letterpaper
-  color: green
+  color: '#091057'
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
