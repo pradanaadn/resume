@@ -26,7 +26,7 @@ jobs:
           TAG_NAME=${GITHUB_REF#refs/tags/}
           echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
           
-          # Convert v-ds-x.x.x to "Data Scientist  x.x.x"
+          # Convert v-ds-x.x.x to "Data Scientist x.x.x"
           if [[ $TAG_NAME == v-ds-* ]]; then
             VERSION=${TAG_NAME#v-ds-}
             TITLE="DS v.$VERSION"
@@ -37,47 +37,39 @@ jobs:
           
           echo "version=$TITLE" >> $GITHUB_OUTPUT
 
-          - name: Read and sanitize release note
-          id: release_note
-          run: |
-            CV_PATH="rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md"
+      - name: Read and sanitize release note
+        id: release_note
+        run: |
+          CV_PATH="rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md"
+          
+          # Get the previous tag
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          
+          # Get commits between tags, excluding workflow commits
+          if [ -n "$PREV_TAG" ]; then
+            COMMITS=$(git log --no-merges --pretty=format:"- %s" ${PREV_TAG}..HEAD | grep -iv "workflow" || echo "")
+          else
+            # If no previous tag, get all commits
+            COMMITS=$(git log --no-merges --pretty=format:"- %s" | grep -iv "workflow" || echo "")
+          fi
+          
+          if [ -f "$CV_PATH" ]; then
+            # Read CV content
+            CV_CONTENT=$(cat "$CV_PATH")
             
-            # Get the previous tag
-            PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+            # Combine CV content with commits
+            FULL_CONTENT="${CV_CONTENT}\n\n## Changelog\n${COMMITS}"
             
-            # Get commits between tags, excluding workflow commits
-            if [ -n "$PREV_TAG" ]; then
-              COMMITS=$(git log --no-merges --pretty=format:"- %s" ${PREV_TAG}..HEAD | grep -iv "workflow" || echo "")
-            else
-              # If no previous tag, get all commits
-              COMMITS=$(git log --no-merges --pretty=format:"- %s" | grep -iv "workflow" || echo "")
-            fi
-            
-            if [ -f "$CV_PATH" ]; then
-              # Read CV content
-              CV_CONTENT=$(cat "$CV_PATH")
-              
-              # Combine CV content with commits
-              FULL_CONTENT="${CV_CONTENT}
-  
-  ## Changelog
-  ${COMMITS}"
-              
-              # Escape newlines and quotes for JSON
-              SANITIZED=$(echo "$FULL_CONTENT" | jq -Rsa .)
-              echo "note=$SANITIZED" >> $GITHUB_OUTPUT
-              echo "has_notes=true" >> $GITHUB_OUTPUT
-            else
-              DEFAULT_NOTE="Release ${TAG_NAME}
-  
-  ## Changelog
-  ${COMMITS}
-  
-  This is an automated release created from tag ${TAG_NAME}."
-              SANITIZED=$(echo "$DEFAULT_NOTE" | jq -Rsa .)
-              echo "note=$SANITIZED" >> $GITHUB_OUTPUT
-              echo "has_notes=false" >> $GITHUB_OUTPUT
-            fi
+            # Escape newlines and quotes for JSON
+            SANITIZED=$(echo "$FULL_CONTENT" | jq -Rsa .)
+            echo "note=$SANITIZED" >> $GITHUB_OUTPUT
+            echo "has_notes=true" >> $GITHUB_OUTPUT
+          else
+            DEFAULT_NOTE="Release ${TAG_NAME}\n\n## Changelog\n${COMMITS}\n\nThis is an automated release created from tag ${TAG_NAME}."
+            SANITIZED=$(echo "$DEFAULT_NOTE" | jq -Rsa .)
+            echo "note=$SANITIZED" >> $GITHUB_OUTPUT
+            echo "has_notes=false" >> $GITHUB_OUTPUT
+
 
       - name: Verify PDF exists
         id: check_pdf
