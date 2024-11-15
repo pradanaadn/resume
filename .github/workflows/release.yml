@@ -26,17 +26,16 @@ jobs:
       - name: Read and sanitize release note
         id: release_note
         run: |
-          sanitized_note=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md | sed 's/^/"/;s/$/"/;s/+/%2B/g')
-          echo "release_note=$sanitized_note" >> $GITHUB_ENV
+          sanitized_note=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md | sed 's/"/\\"/g' | awk '{printf "%s\\n", $0}')
+          echo "::set-output name=release_note::$sanitized_note"
 
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ env.tag_name }}
-          release_note: ${{ env.release_note }}
         run: |
           gh release create "$tag" \
               --repo="$GITHUB_REPOSITORY" \
               --title="${tag#v}" \
-              --notes="$release_note" \
+              --notes="${{ steps.release_note.outputs.release_note }}" \
               ./rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf
