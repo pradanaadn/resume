@@ -1,32 +1,38 @@
-name: Create release
+name: Create releases for specific tags
 
 on:
   push:
     tags:
-      - "v*"
+      - 'v-ai*'
+      - 'v-ds*'
+      - 'v-*'
 
 permissions:
   contents: write
 
 jobs:
   release:
-    name: Release pushed tag
+    name: Create releases for matching tags
     runs-on: ubuntu-22.04
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
-      - name: Set up environment
-        run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      - name: Generate release note
+      - name: Extract tag name
+        id: extract_tag
+        run: echo "tag_name=${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Read release note
         id: release_note
-        run: echo "release_note=Automated release for version ${{ github.ref_name }}." >> $GITHUB_ENV
+        run: |
+          release_note_content=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md)
+          echo "release_note=$release_note_content" >> $GITHUB_ENV
 
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref_name }}
+          tag: ${{ env.tag_name }}
           release_note: ${{ env.release_note }}
         run: |
           gh release create "$tag" \
