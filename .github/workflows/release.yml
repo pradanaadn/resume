@@ -17,31 +17,60 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for better tag handling
 
       - name: Extract tag name
         id: extract_tag
         run: |
           TAG_NAME=${GITHUB_REF#refs/tags/}
           echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
+          # Extract version without 'v-' prefix for title
+          VERSION=${TAG_NAME#v-}
+          VERSION=${VERSION#ds-}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Read and sanitize release note
         id: release_note
         run: |
-          if [ -f "rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md" ]; then
-            CONTENT=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md)
+          CV_PATH="rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md"
+          if [ -f "$CV_PATH" ]; then
+            CONTENT=$(cat "$CV_PATH")
             # Escape newlines and quotes for JSON
             SANITIZED=$(echo "$CONTENT" | jq -Rsa .)
             echo "note=$SANITIZED" >> $GITHUB_OUTPUT
+            echo "has_notes=true" >> $GITHUB_OUTPUT
           else
-            echo "note=Release for ${TAG_NAME}" >> $GITHUB_OUTPUT
+            DEFAULT_NOTE="Release ${TAG_NAME}
+
+            This is an automated release created from tag ${TAG_NAME}."
+            SANITIZED=$(echo "$DEFAULT_NOTE" | jq -Rsa .)
+            echo "note=$SANITIZED" >> $GITHUB_OUTPUT
+            echo "has_notes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Verify PDF exists
+        id: check_pdf
+        run: |
+          PDF_PATH="rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf"
+          if [ -f "$PDF_PATH" ]; then
+            echo "pdf_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "pdf_exists=false" >> $GITHUB_OUTPUT
+            echo "::warning::PDF file not found at $PDF_PATH"
           fi
 
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "${{ steps.extract_tag.outputs.tag_name }}" \
-            --repo="${GITHUB_REPOSITORY}" \
-            --title="${{ steps.extract_tag.outputs.tag_name }}" \
-            --notes="${{ steps.release_note.outputs.note }}" \
-            ./rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf
+          RELEASE_CMD="gh release create \"${{ steps.extract_tag.outputs.tag_name }}\" \
+            --repo=\"${GITHUB_REPOSITORY}\" \
+            --title=\"Version ${{ steps.extract_tag.outputs.version }}\" \
+            --notes=\"${{ steps.release_note.outputs.note }}\""
+          
+          if [ "${{ steps.check_pdf.outputs.pdf_exists }}" = "true" ]; then
+            RELEASE_CMD="$RELEASE_CMD ./rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf"
+          fi
+          
+          eval "$RELEASE_CMD"
