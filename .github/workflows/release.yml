@@ -13,12 +13,24 @@ jobs:
     name: Release pushed tag
     runs-on: ubuntu-22.04
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up environment
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Generate release note
+        id: release_note
+        run: echo "release_note=Automated release for version ${{ github.ref_name }}." >> $GITHUB_ENV
+
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.ref_name }}
+          release_note: ${{ env.release_note }}
         run: |
           gh release create "$tag" \
               --repo="$GITHUB_REPOSITORY" \
               --title="${tag#v}" \
-              --generate-notes
+              --notes="$release_note" \
+              ./rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf
