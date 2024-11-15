@@ -21,21 +21,27 @@ jobs:
       - name: Extract tag name
         id: extract_tag
         run: |
-          echo "tag_name=${GITHUB_REF##*/}" >> $GITHUB_ENV
+          TAG_NAME=${GITHUB_REF#refs/tags/}
+          echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
 
       - name: Read and sanitize release note
         id: release_note
         run: |
-          sanitized_note=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md | sed 's/"/\\"/g' | awk '{printf "%s\\n", $0}')
-          echo "::set-output name=release_note::$sanitized_note"
+          if [ -f "rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md" ]; then
+            CONTENT=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md)
+            # Escape newlines and quotes for JSON
+            SANITIZED=$(echo "$CONTENT" | jq -Rsa .)
+            echo "note=$SANITIZED" >> $GITHUB_OUTPUT
+          else
+            echo "note=Release for ${TAG_NAME}" >> $GITHUB_OUTPUT
+          fi
 
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ env.tag_name }}
         run: |
-          gh release create "$tag" \
-              --repo="$GITHUB_REPOSITORY" \
-              --title="${tag#v}" \
-              --notes="${{ steps.release_note.outputs.release_note }}" \
-              ./rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf
+          gh release create "${{ steps.extract_tag.outputs.tag_name }}" \
+            --repo="${GITHUB_REPOSITORY}" \
+            --title="${{ steps.extract_tag.outputs.tag_name }}" \
+            --notes="${{ steps.release_note.outputs.note }}" \
+            ./rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf
