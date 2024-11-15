@@ -1,6 +1,6 @@
 cv:
-  name: Putu Gede Pradana Adnyana
-  location: Bali, Indonesia
+  name: 'Putu Gede Pradana Adnyana'
+  location: Badung, Bali, Indonesia
   email: work.pradanaadn@gmail.com
   phone: tel:+62-812-373-743-63
   website: https://pradanaadn.github.io/about/
@@ -31,7 +31,7 @@ cv:
         start_date: 2024-03
         end_date: 2024-07
         highlights:
-          - 'GPA: 90 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))'
+          - 'GPA: 90/100 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))'
           - '**Coursework:**  Python, Data Cleaning, Data Visualization, Statistic, Linear algebra and calculus, Machine Learning, Deep
                               Learning, CNN and Computer Vision, Pytorch, NLP and Transformer, MLOps'
       - institution: 'Bangkit by Google, Goto and Traveloka'
@@ -39,12 +39,12 @@ cv:
         start_date: 2023-02
         end_date: 2023-07
         highlights:
-          - 'GPA: 95 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))'
+          - 'GPA: 95/100 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))'
           - '**Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment'
 
     technical_skills:
       - label: Language
-        details: Python (Advanced), PHP (Intermediate), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
+        details: Python (Advanced), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
       - label: Data Analysis and Manipulation
         details: Pandas, Numpy
       - label: Data Vizualization
@@ -62,7 +62,7 @@ cv:
     language_proficiency : 
       - Indonesia (Native), English (Intermediate)
     certification:
-      - 'Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associate'
+      - '[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)'
 
     experience:
       - company: Ruang Guru
@@ -117,9 +117,9 @@ design:
   color: '#091057'
   disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  page_numbering_style: NAME (Data Scientist) - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date:  false
-  last_updated_date_style: Last updated in TODAY
+  last_updated_date_style: Last updated in TODAY (Astra Career)
   header_font_size: 25 pt
   text_alignment: left-aligned
   seperator_between_connections: $|$

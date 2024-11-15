@@ -2,4 +2,4 @@ init:
 	rendercv new $(n)
 
 render: 
-	rendercv render $(n).yaml
+	rendercv render Putu_Gede_Pradana_Adnyana_CV.yaml

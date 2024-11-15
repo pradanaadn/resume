@@ -2,7 +2,7 @@
 
 - Phone: +62 812 3737 4363
 - Email: [work.pradanaadn@gmail.com](mailto:work.pradanaadn@gmail.com)
-- Location: Bali, Indonesia
+- Location: Badung, Bali, Indonesia
 - Website: [pradanaadn.github.ioabout](https://pradanaadn.github.io/about/)
 - LinkedIn: [pradanaadn](https://linkedin.com/in/pradanaadn)
 - GitHub: [pradanaadn](https://github.com/pradanaadn)
@@ -24,18 +24,18 @@ Highly motivated and results-oriented Electrical Engineering student  with a str
 ## Mastering AI: From Foundations to Applications by Ruangguru, 
 
 - Mar 2024 – July 2024
-- GPA: 90 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))
+- GPA: 90/100 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))
 - **Coursework:**  Python, Data Cleaning, Data Visualization, Statistic, Linear algebra and calculus, Machine Learning, Deep Learning, CNN and Computer Vision, Pytorch, NLP and Transformer, MLOps
 
 ## Bangkit by Google, Goto and Traveloka, Machine Learning
 
 - Feb 2023 – July 2023
-- GPA: 95 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))
+- GPA: 95/100 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))
 - **Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment
 
 # Technical Skills
 
-- Language: Python (Advanced), PHP (Intermediate), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
+- Language: Python (Advanced), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
 - Data Analysis and Manipulation: Pandas, Numpy
 - Data Vizualization: Seaborn, Matplotlib, Plotly, Tableau
 - Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
@@ -52,7 +52,7 @@ Indonesia (Native), English (Intermediate)
 
 # Certification
 
-Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associate
+[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)
 
 # Experience
 
