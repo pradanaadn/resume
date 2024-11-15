@@ -29,10 +29,10 @@ jobs:
           # Convert v-ds-x.x.x to "Data Scientist Version x.x.x"
           if [[ $TAG_NAME == v-ds-* ]]; then
             VERSION=${TAG_NAME#v-ds-}
-            TITLE="Data Scientist Version $VERSION"
+            TITLE="DS Version $VERSION"
           else
             VERSION=${TAG_NAME#v-}
-            TITLE="Version $VERSION"
+            TITLE="$VERSION"
           fi
           
           echo "version=$TITLE" >> $GITHUB_OUTPUT
