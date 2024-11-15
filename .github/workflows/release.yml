@@ -3,8 +3,7 @@ name: Create releases for specific tags
 on:
   push:
     tags:
-      - 'v-ai*'
-      - 'v-ds*'
+      - 'v-ds-*'
       - 'v-*'
 
 permissions:
@@ -24,11 +23,11 @@ jobs:
         run: |
           echo "tag_name=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
-      - name: Read release note
+      - name: Read and sanitize release note
         id: release_note
         run: |
-          release_note_content=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md | sed 's/^/"/;s/$/"/')
-          echo "release_note=$release_note_content" >> $GITHUB_ENV
+          sanitized_note=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md | sed 's/^/"/;s/$/"/;s/+/%2B/g')
+          echo "release_note=$sanitized_note" >> $GITHUB_ENV
 
       - name: Create release
         env:
