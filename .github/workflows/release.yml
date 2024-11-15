@@ -21,12 +21,13 @@ jobs:
 
       - name: Extract tag name
         id: extract_tag
-        run: echo "tag_name=${GITHUB_REF##*/}" >> $GITHUB_ENV
+        run: |
+          echo "tag_name=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Read release note
         id: release_note
         run: |
-          release_note_content=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md)
+          release_note_content=$(cat rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md | sed 's/^/"/;s/$/"/')
           echo "release_note=$release_note_content" >> $GITHUB_ENV
 
       - name: Create release
