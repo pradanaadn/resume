@@ -25,10 +25,17 @@ jobs:
         run: |
           TAG_NAME=${GITHUB_REF#refs/tags/}
           echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
-          # Extract version without 'v-' prefix for title
-          VERSION=${TAG_NAME#v-}
-          VERSION=${VERSION#ds-}
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          
+          # Convert v-ds-x.x.x to "Data Scientist Version x.x.x"
+          if [[ $TAG_NAME == v-ds-* ]]; then
+            VERSION=${TAG_NAME#v-ds-}
+            TITLE="Data Scientist Version $VERSION"
+          else
+            VERSION=${TAG_NAME#v-}
+            TITLE="Version $VERSION"
+          fi
+          
+          echo "version=$TITLE" >> $GITHUB_OUTPUT
 
       - name: Read and sanitize release note
         id: release_note
