@@ -10,11 +10,11 @@
 
 # Summary
 
-Motivated Electrical and Computer Engineering graduate with a passion for digital transformation and strong skills in software development, system design, and machine learning. Proven success in leading projects and delivering impactful solutions. Eager to join Bank BNI’s Officer Development Program (ODP) to apply technical expertise and leadership in driving innovation. Adaptable, creative, and ready to relocate and tackle new challenges across Indonesia.
+AI Engineer with a strong foundation in machine learning, data science, and AI model development, complemented by expertise in software development and system optimization. Demonstrated success in applying advanced AI techniques to real-world problems, including predictive analytics, recommendation systems, and natural language processing. Passionate about driving global impact through ethical AI practices, fostering innovation, and empowering diverse teams in a collaborative, remote environment.
 
 # Education
 
-## Udayana University, BEng (Sarjana Teknik / S.T) in Electrical and Computer Engineering
+## Udayana University, BEng in Electrical and Computer Engineering
 
 - Sept 2020 – Aug 2024
 - **GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
@@ -37,12 +37,12 @@ Motivated Electrical and Computer Engineering graduate with a passion for digita
 
 # Technical Skills
 
-- Language: Python (Advanced), Java (Intermediate), SQL (Intermediate), Bash (Intermediate)
+- Language: Python (Advanced), Java (Intermediate),  SQL (Intermediate), Bash (Intermediate)
 - Data Analysis and Manipulation: Pandas, Numpy
 - Data Vizualization: Seaborn, Matplotlib, Plotly, Tableau
 - Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
 - Large Language Model: Langchain, VertexAI, OpenAI, Anthropic
-- API Development: Flask, FastAPI, Django REST API
+- API and Web Development Framework: Flask, FastAPI, Django REST API
 - Deployment: Docker, Git, Gthub Action, Streamlit, Gradio
 - Cloud Service: Azure AI Service, Google Cloud Platform
 # Experience
@@ -52,7 +52,7 @@ Motivated Electrical and Computer Engineering graduate with a passion for digita
 - Sept 2024 – Dec 2024
 - Jakarta, Indonesia
 - Led the development of a centralized system integrating multiple third-party AI models (e.g., OpenAI, Gemini, Anthropic), streamlining access for product and development teams and improving system efficiency by **30%**.
-- Implemented CI/CD pipelines to automate deployment processes, reducing deployment errors and downtime by 25%, showcasing expertise in system optimization and reliability, key for supporting scalable IT solutions in banking environments.
+- Implemented CI/CD pipelines to automate deployment processes, reducing deployment errors and downtime by 25%, showcasing expertise in system optimization and reliability.
 
 ## XL Axiata (X-Camp), Product Development Intern
 
@@ -68,10 +68,6 @@ Motivated Electrical and Computer Engineering graduate with a passion for digita
 # Soft Skills
 
 Project Management, Communication, Agile development, Time management, Technical Problem Solvingg, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
-
-# Additional Attributes
-
-Willing to relocate across Indonesia, Adaptable to dynamic, multicultural work environments, Committed to driving technological innovation in financial services
 
 # Language Proficiency
 

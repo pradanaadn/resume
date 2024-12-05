@@ -1,0 +1,149 @@
+cv:
+  name: "Putu Gede Pradana Adnyana"
+  location: Badung, Bali, Indonesia
+  email: work.pradanaadn@gmail.com
+  phone: tel:+62-812-373-743-63
+  website: https://pradanaadn.github.io/about/
+  social_networks:
+    - network: LinkedIn
+      username: pradanaadn
+    - network: GitHub
+      username: pradanaadn
+  sections:
+    summary:
+      - "AI Engineer with a strong foundation in machine learning, data science, and AI model development, complemented by expertise in software development and system optimization. Demonstrated success in applying advanced AI techniques to real-world problems, including predictive analytics, recommendation systems, and natural language processing. Passionate about driving global impact through ethical AI practices, fostering innovation, and empowering diverse teams in a collaborative, remote environment."
+
+    education:
+      - institution: Udayana University
+        area: Electrical and Computer Engineering
+        degree: BEng 
+        start_date: 2020-09
+        end_date: 2024-08
+
+        highlights:
+          - "**GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
+          - "**Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)"
+          - "**Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation"
+          - "**Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management"
+
+      - institution: "Mastering AI: From Foundations to Applications by Ruangguru"
+        area: "Machine Learning Engineering"
+        start_date: 2024-03
+        end_date: 2024-07
+        highlights:
+          - "GPA: 90/100 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))"
+          - "**Coursework:**  Python, Data Cleaning, Data Visualization, Statistic, Linear algebra and calculus, Machine Learning, Deep
+            Learning, CNN and Computer Vision, Pytorch, NLP and Transformer, MLOps"
+
+      - institution: "Bangkit by Google, Goto and Traveloka"
+        area: "Machine Learning"
+        start_date: 2023-02
+        end_date: 2023-07
+        highlights:
+          - "GPA: 95/100 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))"
+          - "Distinction Graduates, 10% of 5000++ Cohort"
+          - "**Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment"
+
+    technical_skills:
+      - label: Language
+        details: Python (Advanced), Java (Intermediate),  SQL (Intermediate), Bash (Intermediate)
+      - label: Data Analysis and Manipulation
+        details: Pandas, Numpy
+      - label: Data Vizualization
+        details: Seaborn, Matplotlib, Plotly, Tableau
+      - label: Machine Learning Modeling
+        details: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
+      - label: Large Language Model
+        details: Langchain, VertexAI, OpenAI, Anthropic
+      - label: API and Web Development Framework
+        details: Flask, FastAPI, Django REST API
+      - label: Deployment
+        details: Docker, Git, Gthub Action, Streamlit, Gradio
+      - label: Cloud Service
+        details: Azure AI Service, Google Cloud Platform
+
+    experience:
+      - company: Ruang Guru
+        position: Artificial Intelligence Engineer Intern
+        location: Jakarta, Indonesia
+        start_date: 2024-09
+        end_date: 2024-12
+        highlights:
+          - "Led the development of a centralized system integrating multiple third-party AI models (e.g., OpenAI, Gemini, Anthropic), streamlining access for product and development teams and improving system efficiency by **30%**."
+          - "Implemented CI/CD pipelines to automate deployment processes, reducing deployment errors and downtime by 25%, showcasing expertise in system optimization and reliability."
+      - company: XL Axiata (X-Camp)
+        position: Product Development Intern
+        location: Jakarta, Indonesia
+        start_date: 2024-08
+        end_date: 2024-08
+        highlights:
+          - "**Enhanced System Efficiency and Scalability**: Led the integration of RTSP cameras and optimized multithreaded data processing using CUDA, increasing system performance by 40% and ensuring real-time analytics for scalable monitoring solutions."
+          - "**Developed and Deployed AI-Driven Solutions**: Configured Jetson Nano for YOLO model deployment and integrated MQTT with ThingsBoard, improving system reliability and enabling faster AI-based task execution by 30%, aligning with digital transformation initiatives in financial systems."
+
+    certification:
+      - "[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)"
+    Soft_skills:
+      - Project Management, Communication, Agile development, Time management, Technical Problem Solvingg, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
+    language_proficiency:
+      - Indonesia (Native), English (Proficient, TOEFL ITP Score 500++) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
+    projects:
+      - name: Suicidal Intent Classification Using Sentiment Analysis
+        date: "([Project Link](https://github.com/pradanaadn/sucidal-text-classification))"
+        highlights:
+          - Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98% using Transformer Based Model
+          - Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50% suicidal, 50% non-suicidal).
+          - Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
+          - "Tools Used: Python, Huggingface Transformer, Gradio"
+
+      - name: UmMeals – Maternal and Child Nutrition App
+        date: "([Project Link](https://github.com/Talenta-AI-2))"
+        highlights:
+          - Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
+          - Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
+          - "Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI "
+
+      - name: "Bangkit Capstone Project : Linguity, English Pronunciation Mastery App"
+        date: "([Project Link](https://github.com/Linguity))"
+        highlights:
+          - Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20%.
+          - Identified and preprocessed multiple datasets, streamlining data preparation for model training.
+          - Developed a CNN model in Python using TensorFlow, achieving a 90%+ accuracy in predicting spoken words.
+          - Deployed the model via a REST API using Flask, enabling efficient user interaction and integration.
+          - "Tools Used: Python, Tensorflow, Flask, Google Cloud Platform"
+
+design:
+  theme: engineeringresumes
+  font: Charter
+  font_size: 10pt
+  page_size: letterpaper
+  color: "#091057"
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY (Refonte Technologies)
+  header_font_size: 25 pt
+  text_alignment: justified
+  seperator_between_connections: $|$
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 5 pt
+      bottom: 5 pt
+      horizontal_between_connections: 10 pt
