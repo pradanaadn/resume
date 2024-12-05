@@ -10,11 +10,11 @@
 
 # Summary
 
-Motivated Electrical and Computer Engineering graduate with a passion for digital transformation and strong skills in software development, system design, and machine learning. Proven success in leading projects and delivering impactful solutions. Eager to join Bank BNI’s Officer Development Program (ODP) to apply technical expertise and leadership in driving innovation. Adaptable, creative, and ready to relocate and tackle new challenges across Indonesia.
+AI Engineer with expertise in software development, system design, and machine learning. Proven experience in developing user-centered tools and optimizing AI-driven systems. Passionate about leveraging AI to transform the education sector.
 
 # Education
 
-## Udayana University, BEng (Sarjana Teknik / S.T) in Electrical and Computer Engineering
+## Udayana University, BEng in Electrical and Computer Engineering
 
 - Sept 2020 – Aug 2024
 - **GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
@@ -37,14 +37,14 @@ Motivated Electrical and Computer Engineering graduate with a passion for digita
 
 # Technical Skills
 
-- Language: Python (Advanced), Java (Intermediate), SQL (Intermediate), Bash (Intermediate)
+- Language: Python (Advanced), SQL (Intermediate), Bash (Intermediate)
 - Data Analysis and Manipulation: Pandas, Numpy
 - Data Vizualization: Seaborn, Matplotlib, Plotly, Tableau
-- Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
+- Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer, OpenCV
 - Large Language Model: Langchain, VertexAI, OpenAI, Anthropic
-- API Development: Flask, FastAPI, Django REST API
+- API and Web Development Framework: Flask, FastAPI, Django REST API, Laravel
 - Deployment: Docker, Git, Gthub Action, Streamlit, Gradio
-- Cloud Service: Azure AI Service, Google Cloud Platform
+- Cloud Service: Azure AI Service, Google Cloud Platform, Google Colab
 # Experience
 
 ## Ruang Guru, Artificial Intelligence Engineer Intern
@@ -67,11 +67,11 @@ Motivated Electrical and Computer Engineering graduate with a passion for digita
 
 # Soft Skills
 
-Project Management, Communication, Agile development, Time management, Technical Problem Solvingg, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
+Project Management, Communication, Agile development, Time management, Technical Problem Solving, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
 
 # Additional Attributes
 
-Willing to relocate across Indonesia, Adaptable to dynamic, multicultural work environments, Committed to driving technological innovation in financial services
+Willing to work from Yogyakarta (WFO) as required.
 
 # Language Proficiency
 
