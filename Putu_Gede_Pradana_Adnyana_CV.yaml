@@ -1,5 +1,5 @@
 cv:
-  name: 'Putu Gede Pradana Adnyana'
+  name: "Putu Gede Pradana Adnyana"
   location: Badung, Bali, Indonesia
   email: work.pradanaadn@gmail.com
   phone: tel:+62-812-373-743-63
@@ -11,40 +11,42 @@ cv:
       username: pradanaadn
   sections:
     summary:
-      - 'Highly motivated and results-oriented Electrical Engineering student  with a strong focus in Computer Engineering and Artificial Intelligence. Seeking a challenging role to leverage my technical expertise in machine learning and
-        software development. Proven ability to lead teams, analyze data, and build real-world AI solutions.'
+      - "Motivated Electrical and Computer Engineering graduate with a passion for digital transformation and strong skills in software development, system design, and machine learning. Proven success in leading projects and delivering impactful solutions. Eager to join Bank BNI’s Officer Development Program (ODP) to apply technical expertise and leadership in driving innovation. Adaptable, creative, and ready to relocate and tackle new challenges across Indonesia."
 
     education:
       - institution: Udayana University
         area: Electrical and Computer Engineering
-        degree: BEng
+        degree: BEng (Sarjana Teknik / S.T)
         start_date: 2020-09
         end_date: 2024-08
-        
+
         highlights:
-          - 'GPA: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))'
-          - '**Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)'
-          - '**Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP '
-      
-      - institution: 'Mastering AI: From Foundations to Applications by Ruangguru'
-        area: ''
+          - "**GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
+          - "**Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)"
+          - "**Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation"
+          - "**Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management"
+
+      - institution: "Mastering AI: From Foundations to Applications by Ruangguru"
+        area: "Machine Learning Engineering"
         start_date: 2024-03
         end_date: 2024-07
         highlights:
-          - 'GPA: 90/100 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))'
-          - '**Coursework:**  Python, Data Cleaning, Data Visualization, Statistic, Linear algebra and calculus, Machine Learning, Deep
-                              Learning, CNN and Computer Vision, Pytorch, NLP and Transformer, MLOps'
-      - institution: 'Bangkit by Google, Goto and Traveloka'
-        area: 'Machine Learning'
+          - "GPA: 90/100 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))"
+          - "**Coursework:**  Python, Data Cleaning, Data Visualization, Statistic, Linear algebra and calculus, Machine Learning, Deep
+            Learning, CNN and Computer Vision, Pytorch, NLP and Transformer, MLOps"
+
+      - institution: "Bangkit by Google, Goto and Traveloka"
+        area: "Machine Learning"
         start_date: 2023-02
         end_date: 2023-07
         highlights:
-          - 'GPA: 95/100 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))'
-          - '**Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment'
+          - "GPA: 95/100 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))"
+          - "Distinction Graduates, 10% of 5000++ Cohort"
+          - "**Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment"
 
     technical_skills:
       - label: Language
-        details: Python (Advanced), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
+        details: Python (Advanced), Java (Intermediate), PHP (Intermediate), Javascript (Intermediate), SQL (Intermediate), Bash (Intermediate)
       - label: Data Analysis and Manipulation
         details: Pandas, Numpy
       - label: Data Vizualization
@@ -53,75 +55,77 @@ cv:
         details: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
       - label: Large Language Model
         details: Langchain, VertexAI, OpenAI, Anthropic
+      - label: API and Web Development Framework
+        details: Flask, FastAPI, Django REST API, Laravel
       - label: Deployment
-        details: Flask, FastAPI, Docker, Git, Streamlit, Gradio
+        details: Docker, Git, Gthub Action, Streamlit, Gradio
       - label: Cloud Service
-        details: Azure AI Service
-    Soft_skills:
-      - Project Management, Agile development, Time management, Troubleshooting and Problem Solving, Data Analytics
-    language_proficiency : 
-      - Indonesia (Native), English (Intermediate)
-    certification:
-      - '[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)'
+        details: Azure AI Service, Google Cloud Platform
 
     experience:
       - company: Ruang Guru
         position: Artificial Intelligence Engineer Intern
         location: Jakarta, Indonesia
         start_date: 2024-09
-        end_date: present
+        end_date: 2024-12
         highlights:
-          - 'Developed Centralized LLM Playground: Created a centralized playground integrating multiple third-party LLMs (e.g., OpenAI, Gemini, Anthropic) to streamline model access for product and developer teams, reducing setup time by 30%.'
-          - 'Automated Deployment Pipeline: Implemented CI/CD for streamlined deployment of the playground, reducing deployment errors and downtime by 25%.'
+          - "Led the development of a centralized system integrating multiple third-party AI models (e.g., OpenAI, Gemini, Anthropic), streamlining access for product and development teams and improving system efficiency by **30%**."
+          - "Implemented CI/CD pipelines to automate deployment processes, reducing deployment errors and downtime by 25%, showcasing expertise in system optimization and reliability, key for supporting scalable IT solutions in banking environments."
       - company: XL Axiata (X-Camp)
         position: Product Development Intern
         location: Jakarta, Indonesia
         start_date: 2024-08
         end_date: 2024-08
         highlights:
-          - Integrated RTSP Cameras into the JemaahCounter System, enhancing input processing capabilities by 25%, leading to more accurate and scalable system monitoring.
-          - Improved JemaahCounter performance by 40% using multithreading and CUDA, boosting data processing speed and efficiency for real-time analytics.
-          - Developed web and desktop applications that facilitated monitoring of JemaahCounter, increasing system oversight and user accessibility by 50%
-          - Installed and configured Jetson Nano for YOLO model deployment, achieving successful execution of YOLOv8/Helomet and YOLOv5 COCO models, which supported AI-driven tasks by up to 30% faster with CUDA.
-          - Set up and managed MQTT client integration with ThingsBoard, handling telemetry data updates and validating RPC requests, enhancing Smart Locker system reliability by 20%.
-    personal_projects:
+          - "**Enhanced System Efficiency and Scalability**: Led the integration of RTSP cameras and optimized multithreaded data processing using CUDA, increasing system performance by 40% and ensuring real-time analytics for scalable monitoring solutions."
+          - "**Developed and Deployed AI-Driven Solutions**: Configured Jetson Nano for YOLO model deployment and integrated MQTT with ThingsBoard, improving system reliability and enabling faster AI-based task execution by 30%, aligning with digital transformation initiatives in financial systems."
+
+    certification:
+      - "[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)"
+    Soft_skills:
+      - Project Management, Communication, Agile development, Time management, Technical Problem Solvingg, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
+    Additional_Attributes:
+      - Willing to relocate across Indonesia, Adaptable to dynamic, multicultural work environments, Committed to driving technological innovation in financial services
+    language_proficiency:
+      - Indonesia (Native), English (Proficient, TOEFL ITP Score 500++) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
+    projects:
       - name: Suicidal Intent Classification Using Sentiment Analysis
-        date: '([Project Link](https://github.com/pradanaadn/sucidal-text-classification))'
+        date: "([Project Link](https://github.com/pradanaadn/sucidal-text-classification))"
         highlights:
-          - Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98%.
+          - Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98% using Transformer Based Model
           - Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50% suicidal, 50% non-suicidal).
           - Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
-          - 'Tools Used: Python, Huggingface Transformer, Gradio'
+          - "Tools Used: Python, Huggingface Transformer, Gradio"
+
       - name: UmMeals – Maternal and Child Nutrition App
-        date: '([Project Link](https://github.com/Talenta-AI-2))'
+        date: "([Project Link](https://github.com/Talenta-AI-2))"
         highlights:
           - Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
           - Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
-          - 'Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI '
-      - name: 'Bangkit Capstone Project : Linguity, English Pronunciation Mastery App'
-        date: '([Project Link](https://github.com/Linguity))'
+          - "Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI "
+
+      - name: "Bangkit Capstone Project : Linguity, English Pronunciation Mastery App"
+        date: "([Project Link](https://github.com/Linguity))"
         highlights:
           - Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20%.
           - Identified and preprocessed multiple datasets, streamlining data preparation for model training.
           - Developed a CNN model in Python using TensorFlow, achieving a 90%+ accuracy in predicting spoken words.
           - Deployed the model via a REST API using Flask, enabling efficient user interaction and integration.
-
-          - 'Tools Used: Python, Tensorflow, Flask, Google Cloud Platform'
-    
+          - "Tools Used: Python, Tensorflow, Flask, Google Cloud Platform"
 
 design:
   theme: engineeringresumes
   font: Charter
   font_size: 10pt
   page_size: letterpaper
-  color: '#091057'
+  color: "#091057"
   disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: NAME (Data Scientist) - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date:  false
-  last_updated_date_style: Last updated in TODAY (Astra Career)
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY (ODP IT BNI)
   header_font_size: 25 pt
-  text_alignment: left-aligned
+  text_alignment: justified
   seperator_between_connections: $|$
   use_icons_for_connections: true
   margins:

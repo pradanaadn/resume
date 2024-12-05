@@ -10,18 +10,19 @@
 
 # Summary
 
-Highly motivated and results-oriented Electrical Engineering student  with a strong focus in Computer Engineering and Artificial Intelligence. Seeking a challenging role to leverage my technical expertise in machine learning and software development. Proven ability to lead teams, analyze data, and build real-world AI solutions.
+Motivated Electrical and Computer Engineering graduate with a passion for digital transformation and strong skills in software development, system design, and machine learning. Proven success in leading projects and delivering impactful solutions. Eager to join Bank BNI’s Officer Development Program (ODP) to apply technical expertise and leadership in driving innovation. Adaptable, creative, and ready to relocate and tackle new challenges across Indonesia.
 
 # Education
 
-## Udayana University, BEng in Electrical and Computer Engineering
+## Udayana University, BEng (Sarjana Teknik / S.T) in Electrical and Computer Engineering
 
 - Sept 2020 – Aug 2024
-- GPA: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
+- **GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
 - **Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)
-- **Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP 
+- **Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation
+- **Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management
 
-## Mastering AI: From Foundations to Applications by Ruangguru, 
+## Mastering AI: From Foundations to Applications by Ruangguru, Machine Learning Engineering
 
 - Mar 2024 – July 2024
 - GPA: 90/100 ([Transcripts](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view))
@@ -31,54 +32,57 @@ Highly motivated and results-oriented Electrical Engineering student  with a str
 
 - Feb 2023 – July 2023
 - GPA: 95/100 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))
+- Distinction Graduates, 10% of 5000++ Cohort
 - **Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment
 
 # Technical Skills
 
-- Language: Python (Advanced), C++ (Intermediate), SQL (Intermediate), Bash (Intermediate)
+- Language: Python (Advanced), Java (Intermediate), SQL (Intermediate), Bash (Intermediate)
 - Data Analysis and Manipulation: Pandas, Numpy
 - Data Vizualization: Seaborn, Matplotlib, Plotly, Tableau
 - Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
 - Large Language Model: Langchain, VertexAI, OpenAI, Anthropic
-- Deployment: Flask, FastAPI, Docker, Git, Streamlit, Gradio
-- Cloud Service: Azure AI Service
-# Soft Skills
-
-Project Management, Agile development, Time management, Troubleshooting and Problem Solving, Data Analytics
-
-# Language Proficiency
-
-Indonesia (Native), English (Intermediate)
-
-# Certification
-
-[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)
-
+- API Development: Flask, FastAPI, Django REST API
+- Deployment: Docker, Git, Gthub Action, Streamlit, Gradio
+- Cloud Service: Azure AI Service, Google Cloud Platform
 # Experience
 
 ## Ruang Guru, Artificial Intelligence Engineer Intern
 
-- Sept 2024 – present
+- Sept 2024 – Dec 2024
 - Jakarta, Indonesia
-- Developed Centralized LLM Playground: Created a centralized playground integrating multiple third-party LLMs (e.g., OpenAI, Gemini, Anthropic) to streamline model access for product and developer teams, reducing setup time by 30%.
-- Automated Deployment Pipeline: Implemented CI/CD for streamlined deployment of the playground, reducing deployment errors and downtime by 25%.
+- Led the development of a centralized system integrating multiple third-party AI models (e.g., OpenAI, Gemini, Anthropic), streamlining access for product and development teams and improving system efficiency by **30%**.
+- Implemented CI/CD pipelines to automate deployment processes, reducing deployment errors and downtime by 25%, showcasing expertise in system optimization and reliability, key for supporting scalable IT solutions in banking environments.
 
 ## XL Axiata (X-Camp), Product Development Intern
 
 - Aug 2024 – Aug 2024
 - Jakarta, Indonesia
-- Integrated RTSP Cameras into the JemaahCounter System, enhancing input processing capabilities by 25%, leading to more accurate and scalable system monitoring.
-- Improved JemaahCounter performance by 40% using multithreading and CUDA, boosting data processing speed and efficiency for real-time analytics.
-- Developed web and desktop applications that facilitated monitoring of JemaahCounter, increasing system oversight and user accessibility by 50%
-- Installed and configured Jetson Nano for YOLO model deployment, achieving successful execution of YOLOv8/Helomet and YOLOv5 COCO models, which supported AI-driven tasks by up to 30% faster with CUDA.
-- Set up and managed MQTT client integration with ThingsBoard, handling telemetry data updates and validating RPC requests, enhancing Smart Locker system reliability by 20%.
+- **Enhanced System Efficiency and Scalability**: Led the integration of RTSP cameras and optimized multithreaded data processing using CUDA, increasing system performance by 40% and ensuring real-time analytics for scalable monitoring solutions.
+- **Developed and Deployed AI-Driven Solutions**: Configured Jetson Nano for YOLO model deployment and integrated MQTT with ThingsBoard, improving system reliability and enabling faster AI-based task execution by 30%, aligning with digital transformation initiatives in financial systems.
 
-# Personal Projects
+# Certification
+
+[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)
+
+# Soft Skills
+
+Project Management, Communication, Agile development, Time management, Technical Problem Solvingg, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
+
+# Additional Attributes
+
+Willing to relocate across Indonesia, Adaptable to dynamic, multicultural work environments, Committed to driving technological innovation in financial services
+
+# Language Proficiency
+
+Indonesia (Native), English (Proficient, TOEFL ITP Score 500++) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
+
+# Projects
 
 ## Suicidal Intent Classification Using Sentiment Analysis
 
 - ([Project Link](https://github.com/pradanaadn/sucidal-text-classification))
-- Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98%.
+- Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98% using Transformer Based Model
 - Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50% suicidal, 50% non-suicidal).
 - Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
 - Tools Used: Python, Huggingface Transformer, Gradio
