@@ -22,8 +22,6 @@ cv:
 
         highlights:
           - "**GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
-          - "**Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)"
-          - "**Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation"
           - "**Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management"
 
       - institution: "Mastering AI: From Foundations to Applications by Ruangguru"
@@ -121,7 +119,7 @@ design:
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY (Refonte Technologies)
+  last_updated_date_style: Last updated in TODAY (Machine Learning Engineer-Searce)
   header_font_size: 25 pt
   text_alignment: justified
   seperator_between_connections: $|$
