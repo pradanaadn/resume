@@ -10,7 +10,7 @@
 
 # Summary
 
-Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goa
+Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal
 
 # Education
 
@@ -18,7 +18,6 @@ Innovative Computer Engineering graduate with 1+ year of experience in AI-powere
 
 - Sept 2020 – Aug 2024
 - **GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
-- **Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation
 - **Coursework:** Discrete Mathematics, Calculus, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Digital Image Processing, Big Data, OOP, Database, Computer Network, Information Technology Project Management
 
 ## Mastering AI: From Foundations to Applications by Ruangguru, Machine Learning Engineering
@@ -40,7 +39,7 @@ Innovative Computer Engineering graduate with 1+ year of experience in AI-powere
 - Data Analysis and Visualization: Pandas, Numpy, Seaborn, Matplotlib, Plotly, Tableau
 - Machine Learning Modeling: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
 - Large Language Model: Langchain, VertexAI, OpenAI, Anthropic
-- API and Web Development Framework: Flask, FastAPI, Django REST API, Laravel
+- API and Web Development Framework: Flask, FastAPI, Django REST API, Laravel, Tailwind CSS, DaisyUI, Bootstrap, HTMX, Jquery
 - Deployment: Docker, Git, Gthub Action, Streamlit, Gradio
 - Cloud Service: Azure AI Service, Google Cloud Platform
 # Experience
@@ -90,19 +89,19 @@ Indonesia (Native), English (Proficient, TOEFL ITP Score >500) [[Certificate](ht
 - Provided actionable insights, such as identifying 60% organic waste, leading to better infrastructure planning like composting facilities.
 - Tools Used: Python, Streamlit, Alibaba Cloud, Ultralytics, OpenCV
 
-## COVID-19 Detection via Chest X-rays
+## Capstone Project Information System
 
-- ([Project Repository](https://github.com/pradanaadn/covid-19-detection))
-- Tackled the challenge of automating COVID-19 detection using chest X-rays with a deep learning model.
-- Led the development and training of a CNN model using PyTorch and a fine-tuned ResNet-50 architecture.
-- Preprocessed images (224x224 size, normalized, augmented) and implemented training with Adam optimizer and cross-entropy loss.
+- ([Project Report](https://drive.google.com/file/d/1x37qvoekHEoIhrANusdd5onVDC--48Cn/view?usp=sharing))
+- Designed an information system by creating database architecture with Entity-Relationship Diagrams (ERD),designing user interfaces using Figma, and conducting requirements analysis with Unified Modeling Language (UML).
+- Developed and implemented the system within agile environments, enhancing adaptability and facilitating iterative improvements.
+- Conducted comprehensive black-box testing and User Acceptance Testing (UAT), achieving a 93% acceptance rate in functionality.
 - Achieved 92% validation accuracy after 10 epochs by fine-tuning pretrained layers.
-- Built a scalable pipeline for real-time predictions with confidence scores on unseen data.
-- Tools Used: Python, Pytorch, Transformer, Gradio
+- Optimized the system for scalability, performance, and user satisfaction through ongoing refinement and enhancement efforts.
+- Tools Used: Laravel, PHP, SQL, Javascript, Docker, Jquery, Bootstrap
 
 ## UmMeals – Maternal and Child Nutrition App
 
-- ([Project Repository](https://github.com/Talenta-AI-2))
+- ([Project Repository](https://www.linkedin.com/posts/pradanaadn_ummeals-deck-activity-7223282999407099904-g2PD?utm_source=share&utm_medium=member_desktop))
 - Developed an app supporting nutrition tracking for pregnant women and toddlers, featuring personalized monitoring and early stunting detection to provide better health insights.
 - Managed all project phases from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
 - Utilized Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, and Power BI to enhance app functionalities.

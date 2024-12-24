@@ -12,7 +12,7 @@ cv:
       username: pradanaadn
   sections:
     summary:
-      - "Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goa"
+      - "Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal."
 
     education:
       - institution: Udayana University
@@ -23,7 +23,6 @@ cv:
 
         highlights:
           - "**GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
-          - "**Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation"
           - "**Coursework:** Discrete Mathematics, Calculus, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Digital Image Processing, Big Data, OOP, Database, Computer Network, Information Technology Project Management"
 
       - institution: "Mastering AI: From Foundations to Applications by Ruangguru"
@@ -54,7 +53,7 @@ cv:
       - label: Large Language Model
         details: Langchain, VertexAI, OpenAI, Anthropic
       - label: API and Web Development Framework
-        details: Flask, FastAPI, Django REST API, Laravel
+        details: Flask, FastAPI, Django REST API, Laravel, Tailwind CSS, DaisyUI, Bootstrap, HTMX, Jquery
       - label: Deployment
         details: Docker, Git, Gthub Action, Streamlit, Gradio
       - label: Cloud Service
@@ -101,18 +100,18 @@ cv:
           - Designed a real-time dashboard to monitor waste quantities and types, enabling data-driven decisions for government and enterprise users.
           - Provided actionable insights, such as identifying 60% organic waste, leading to better infrastructure planning like composting facilities.
           - "Tools Used: Python, Streamlit, Alibaba Cloud, Ultralytics, OpenCV"
-      - name: "COVID-19 Detection via Chest X-rays"
-        date: "([Project Repository](https://github.com/pradanaadn/covid-19-detection))"
+      - name: "Capstone Project Information System"
+        date: "([Project Report](https://drive.google.com/file/d/1x37qvoekHEoIhrANusdd5onVDC--48Cn/view?usp=sharing))"
         highlights:
-          - Tackled the challenge of automating COVID-19 detection using chest X-rays with a deep learning model.
-          - Led the development and training of a CNN model using PyTorch and a fine-tuned ResNet-50 architecture.
-          - Preprocessed images (224x224 size, normalized, augmented) and implemented training with Adam optimizer and cross-entropy loss.
+          - Designed an information system by creating database architecture with Entity-Relationship Diagrams (ERD),designing user interfaces using Figma, and conducting requirements analysis with Unified Modeling Language (UML).
+          - Developed and implemented the system within agile environments, enhancing adaptability and facilitating iterative improvements.
+          - Conducted comprehensive black-box testing and User Acceptance Testing (UAT), achieving a 93% acceptance rate in functionality.
           - Achieved 92% validation accuracy after 10 epochs by fine-tuning pretrained layers.
-          - Built a scalable pipeline for real-time predictions with confidence scores on unseen data.
-          - "Tools Used: Python, Pytorch, Transformer, Gradio"
+          - Optimized the system for scalability, performance, and user satisfaction through ongoing refinement and enhancement efforts.
+          - "Tools Used: Laravel, PHP, SQL, Javascript, Docker, Jquery, Bootstrap"
 
       - name: UmMeals – Maternal and Child Nutrition App
-        date: "([Project Repository](https://github.com/Talenta-AI-2))"
+        date: "([Project Repository](https://www.linkedin.com/posts/pradanaadn_ummeals-deck-activity-7223282999407099904-g2PD?utm_source=share&utm_medium=member_desktop))"
         highlights:
           - Developed an app supporting nutrition tracking for pregnant women and toddlers, featuring personalized monitoring and early stunting detection to provide better health insights.
           - Managed all project phases from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
@@ -130,7 +129,7 @@ design:
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY (AI/ML Engineer)
+  last_updated_date_style: Last updated in TODAY (AI/ML and Software Engineer)
   header_font_size: 15pt
   text_alignment: justified
   seperator_between_connections: $|$
@@ -139,8 +138,8 @@ design:
     page:
       top: 2 cm
       bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
+      left: 1 cm
+      right: 1 cm
     section_title:
       top: 0.3 cm
       bottom: 0.2 cm
