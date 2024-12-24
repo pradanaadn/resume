@@ -18,7 +18,6 @@ Innovative Computer Engineering graduate with over 1 year of experience in AI-po
 
 - Sept 2020 – Aug 2024
 - **GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
-- **Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation
 - **Coursework:** Discrete Mathematics, Data Structure, Computer Architecture, Computer Network, Computer Security,  Software Engineering, Machine Learning, Big Data, OOP, Database, Mobile Programming, Information Technology Project Management
 
 ## Mastering AI: From Foundations to Applications by Ruangguru, Machine Learning Engineering
@@ -76,7 +75,7 @@ Project Management, Communication, Agile development, Time management, Technical
 
 # Language Proficiency
 
-Indonesia (Native), English (Proficient, TOEFL ITP Score 500++) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
+Indonesia (Native), English (Proficient, TOEFL ITP Score > 500) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
 
 # Projects
 

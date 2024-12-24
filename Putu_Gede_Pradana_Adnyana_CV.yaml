@@ -23,7 +23,6 @@ cv:
 
         highlights:
           - "**GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
-          - "**Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation"
           - "**Coursework:** Discrete Mathematics, Data Structure, Computer Architecture, Computer Network, Computer Security,  Software Engineering, Machine Learning, Big Data, OOP, Database, Mobile Programming, Information Technology Project Management"
 
       - institution: "Mastering AI: From Foundations to Applications by Ruangguru"
@@ -85,12 +84,13 @@ cv:
           - "Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability."
           - "Improved scalability of monitoring systems through optimized architecture and AI deployment strategies."
           - "Delivered a 30% improvement in task execution speed, aligning with XL Axiata's goals for digital transformation and operational efficiency."
+    
     certification:
       - "[TensorFlow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)"
     Soft_skills:
-      - Project Management, Communication, Agile development, Time management, Technical Problem Solving, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
+      - Project Management, Communication, Agile development, Time management, Technical Problem Solving, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration, Active 
     language_proficiency:
-      - Indonesia (Native), English (Proficient, TOEFL ITP Score 500++) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
+      - Indonesia (Native), English (Proficient, TOEFL ITP Score > 500) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
     projects:
       - name: "Bank Assurance Product Chatbot"
         date: "([Project Documentation](https://pradanaadn.github.io/posts/developed-a-retrieval-augmented-generation-rag-chatbot-to-improve-access-to-banking-product-information/))"
@@ -100,6 +100,7 @@ cv:
           - Conducted extensive testing and optimization to ensure high performance and usability, leading to increased user satisfaction.
           - Led the design and implementation of chatbot architecture, enhancing user experience with accurate and timely responses.
           - "Tools Used: Python, Langchain, Streamlit, Chroma Vector DB, Langgraph, Langsmith"
+          
       - name: "Capstone Project Information System"
         date: "([Project Report](https://drive.google.com/file/d/1x37qvoekHEoIhrANusdd5onVDC--48Cn/view?usp=sharing))"
         highlights:
@@ -151,6 +152,6 @@ design:
       left: 0 cm
       vertical_between_bullet_points: 0.10 cm
     header:
-      vertical_between_name_and_connections: 5 pt
-      bottom: 5 pt
+      vertical_between_name_and_connections: 3 pt
+      bottom: 3 pt
       horizontal_between_connections: 10 pt
