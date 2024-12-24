@@ -19,7 +19,7 @@ Innovative Computer Engineering graduate with over 1 year of experience in AI-po
 - Sept 2020 – Aug 2024
 - **GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
 - **Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation
-- **Coursework:** Discrete Mathematics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management
+- **Coursework:** Discrete Mathematics, Data Structure, Computer Architecture, Computer Network, Computer Security,  Software Engineering, Machine Learning, Big Data, OOP, Database, Mobile Programming, Information Technology Project Management
 
 ## Mastering AI: From Foundations to Applications by Ruangguru, Machine Learning Engineering
 
@@ -60,7 +60,7 @@ Innovative Computer Engineering graduate with over 1 year of experience in AI-po
 
 - Aug 2024 – Aug 2024
 - Jakarta, Indonesia
-- Contributed to the integration of RTSP cameras and optimized multithreaded data processing using CUDA, improving system performance by 40% and enabling real-time analytics.
+- Contributed to the integration of RTSP cameras and optimized multithreaded data processing using CUDA, increasing system performance by 40% and ensuring real-time analytics for scalable monitoring solutions.
 - Led research on deploying YOLO models on Jetson Nano for object detection, enhancing speed and accuracy in AI-driven solutions.
 - Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability.
 - Improved scalability of monitoring systems through optimized architecture and AI deployment strategies.

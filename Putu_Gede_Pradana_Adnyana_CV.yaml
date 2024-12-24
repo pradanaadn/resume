@@ -24,7 +24,7 @@ cv:
         highlights:
           - "**GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
           - "**Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation"
-          - "**Coursework:** Discrete Mathematics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management"
+          - "**Coursework:** Discrete Mathematics, Data Structure, Computer Architecture, Computer Network, Computer Security,  Software Engineering, Machine Learning, Big Data, OOP, Database, Mobile Programming, Information Technology Project Management"
 
       - institution: "Mastering AI: From Foundations to Applications by Ruangguru"
         area: "Machine Learning Engineering"
@@ -80,7 +80,7 @@ cv:
         start_date: 2024-08
         end_date: 2024-08
         highlights:
-          - "Contributed to the integration of RTSP cameras and optimized multithreaded data processing using CUDA, improving system performance by 40% and enabling real-time analytics."
+          - "Contributed to the integration of RTSP cameras and optimized multithreaded data processing using CUDA, increasing system performance by 40% and ensuring real-time analytics for scalable monitoring solutions." 
           - "Led research on deploying YOLO models on Jetson Nano for object detection, enhancing speed and accuracy in AI-driven solutions."
           - "Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability."
           - "Improved scalability of monitoring systems through optimized architecture and AI deployment strategies."
@@ -128,7 +128,7 @@ design:
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY (BDP IT BCA)
+  last_updated_date_style: Last updated in TODAY (PDP Technology)
   header_font_size: 15pt
   text_alignment: justified
   seperator_between_connections: $|$
