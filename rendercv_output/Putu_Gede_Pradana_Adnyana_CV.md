@@ -10,7 +10,7 @@
 
 # Summary
 
-Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal
+Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal.
 
 # Education
 

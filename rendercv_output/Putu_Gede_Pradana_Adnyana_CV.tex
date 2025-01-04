@@ -3,11 +3,11 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=2 cm, % seperation between body and page edge from the top
-    bottom=2 cm, % seperation between body and page edge from the bottom
-    left=1 cm, % seperation between body and page edge from the left
-    right=1 cm, % seperation between body and page edge from the right
-    footskip=1.0 cm, % seperation between body and footer
+    top=1.5cm, % seperation between body and page edge from the top
+    bottom=1cm, % seperation between body and page edge from the bottom
+    left=1cm, % seperation between body and page edge from the left
+    right=1cm, % seperation between body and page edge from the right
+    footskip=0.5 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 \usepackage{titlesec} % for customizing section titles
@@ -68,20 +68,20 @@
     -1pt
 }{
     % top space:
-    0.3 cm
+    0.1cm
 }{
     % bottom space:
-    0.2 cm
+    0.1cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0cm,
+        parsep=0cm,
         partopsep=0pt,
         itemsep=0pt,
-        leftmargin=0 cm + 10pt
+        leftmargin=0cm + 10pt
     ]
 }{
     \end{itemize}
@@ -90,8 +90,8 @@
 
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0cm,
+        parsep=0cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=10pt
@@ -102,9 +102,9 @@
 
 \newenvironment{onecolentry}{
     \begin{adjustwidth}{
-        0 cm + 0.00001 cm
+        0.2cm + 0.00001 cm
     }{
-        0 cm + 0.00001 cm
+        0.2cm + 0.00001 cm
     }
 }{
     \end{adjustwidth}
@@ -113,7 +113,7 @@
 \newenvironment{twocolentry}[2][]{
     \onecolentry
     \def\secondColumn{#2}
-    \setcolumnwidth{\fill, 4.5 cm}
+    \setcolumnwidth{\fill, 4.5cm}
     \begin{paracol}{2}
 }{
     \switchcolumn \raggedleft \secondColumn
@@ -124,7 +124,7 @@
 \newenvironment{threecolentry}[3][]{
     \onecolentry
     \def\thirdColumn{#3}
-    \setcolumnwidth{, \fill, 4.5 cm}
+    \setcolumnwidth{, \fill, 4.5cm}
     \begin{paracol}{3}
     {\raggedright #2} \switchcolumn
 }{
@@ -142,10 +142,10 @@
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
-        \LenToUnit{\paperwidth-1 cm-0 cm+0.05cm},
-        \LenToUnit{\paperheight-1.0 cm}
+        \LenToUnit{\paperwidth-1cm-0.2cm+0.05cm},
+        \LenToUnit{\paperheight-0.75 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in December 2024 (AI/ML and Software Engineer)}\hspace{\widthof{Last updated in December 2024 (AI/ML and Software Engineer)}}
+        \small\color{gray}\textit{Last updated in January 2025 (Junior AI/ML and Software Engineer)}\hspace{\widthof{Last updated in January 2025 (Junior AI/ML and Software Engineer)}}
     }}}%
   }%
 }%
@@ -169,33 +169,33 @@
     \begin{header}
         \fontsize{15pt}{15pt}\selectfont Putu Gede Pradana Adnyana
 
-        \vspace{5 pt}
+        \vspace{2pt}
 
         \normalsize
         \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Badung, Bali, Indonesia}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{mailto:work.pradanaadn@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}work.pradanaadn@gmail.com}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{tel:+62-812-3737-4363}{{\footnotesize\faPhone*}\hspace*{0.13cm}0812-3737-4363}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{https://pradanaadn.github.io/about/}{{\footnotesize\faLink}\hspace*{0.13cm}pradanaadn.github.io/about}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{https://linkedin.com/in/pradanaadn}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}pradanaadn}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{https://github.com/pradanaadn}{{\footnotesize\faGithub}\hspace*{0.13cm}pradanaadn}}%
     \end{header}
 
-    \vspace{5 pt - 0.3 cm}
+    \vspace{1pt - 0.1cm}
 
 
     \section{Summary}
@@ -204,7 +204,7 @@
 
         
         \begin{onecolentry}
-            Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal
+            Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal.
         \end{onecolentry}
 
 
@@ -219,7 +219,7 @@
         }
             \textbf{Udayana University}, S.T in Electrical and Computer Engineering\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item \textbf{GPA}: 3.97/4.0 (\href{https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing}{Transcripts})
@@ -228,14 +228,14 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             Mar 2024 – July 2024
         }
             \textbf{Mastering AI: From Foundations to Applications by Ruangguru}, Machine Learning Engineering\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item GPA: 90/100 (\href{https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view}{Transcripts})
@@ -244,14 +244,14 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             Feb 2023 – July 2023
         }
             \textbf{Bangkit by Google, Goto and Traveloka}, Machine Learning\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item GPA: 95/100 (\href{https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing}{Transcripts})
@@ -272,37 +272,37 @@
             \textbf{Language:} Python (Advanced), C++ (Intermediate), Javascript (Intermediate), SQL (Intermediate), Bash (Intermediate)
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Data Analysis and Visualization:} Pandas, Numpy, Seaborn, Matplotlib, Plotly, Tableau
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Machine Learning Modeling:} Pytorch, Tensorflow, Sklearn, Huggingface Transformer
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Large Language Model:} Langchain, VertexAI, OpenAI, Anthropic
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{API and Web Development Framework:} Flask, FastAPI, Django REST API, Laravel, Tailwind CSS, DaisyUI, Bootstrap, HTMX, Jquery
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Deployment:} Docker, Git, Gthub Action, Streamlit, Gradio
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Cloud Service:} Azure AI Service, Google Cloud Platform
@@ -320,7 +320,7 @@
         }
             \textbf{Artificial Intelligence Engineer Intern}, Ruang Guru -- Jakarta, Indonesia\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Led the development of a centralized system integrating AI models such as OpenAI, Gemini, and Anthropic, streamlining access for product and development teams.
@@ -333,14 +333,14 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             Aug 2024 – Aug 2024
         }
             \textbf{Product Development Intern}, XL Axiata (X-Camp) -- Jakarta, Indonesia\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Contributed to the integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40\% and enabling real-time analytics.
@@ -397,7 +397,7 @@
         }
             \textbf{Trash Object Detection - AI-Based Waste Audit and Assistant}\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Tackled waste management issues in Bandung, addressing landfill sites exceeding 800\% capacity, with AI-powered detection and monitoring solutions.
@@ -410,14 +410,14 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             (\href{https://drive.google.com/file/d/1x37qvoekHEoIhrANusdd5onVDC--48Cn/view?usp=sharing}{Project Report})
         }
             \textbf{Capstone Project Information System}\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Designed an information system by creating database architecture with Entity-Relationship Diagrams (ERD),designing user interfaces using Figma, and conducting requirements analysis with Unified Modeling Language (UML).
@@ -430,14 +430,14 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             (\href{https://www.linkedin.com/posts/pradanaadn_ummeals-deck-activity-7223282999407099904-g2PD?utm_source=share&utm_medium=member_desktop}{Project Repository})
         }
             \textbf{UmMeals – Maternal and Child Nutrition App}\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Developed an app supporting nutrition tracking for pregnant women and toddlers, featuring personalized monitoring and early stunting detection to provide better health insights.

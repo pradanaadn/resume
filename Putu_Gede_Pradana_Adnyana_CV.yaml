@@ -1,6 +1,5 @@
 cv:
   name: "Putu Gede Pradana Adnyana"
-
   location: Badung, Bali, Indonesia
   email: work.pradanaadn@gmail.com
   phone: tel:+62-812-373-743-63
@@ -129,29 +128,32 @@ design:
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY (AI/ML and Software Engineer)
+  last_updated_date_style: Last updated in TODAY (Junior AI/ML and Software Engineer)
   header_font_size: 15pt
   text_alignment: justified
   seperator_between_connections: $|$
   use_icons_for_connections: true
   margins:
     page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 1 cm
-      right: 1 cm
+      top: 1.5cm
+      bottom: 1cm
+      left: 1cm
+      right: 1cm
     section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
+      top: 0.1cm
+      bottom: 0.1cm
     entry_area:
-      left_and_right: 0 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
+      left_and_right: 0.2cm
+      vertical_between: 0.1cm
+      date_and_location_width: 4.5cm
     highlights_area:
-      top: 0.10 cm
-      left: 0 cm
-      vertical_between_bullet_points: 0.10 cm
+      top: 0cm
+      left: 0cm
+      vertical_between_bullet_points: 0cm
     header:
-      vertical_between_name_and_connections: 5 pt
-      bottom: 5 pt
-      horizontal_between_connections: 10 pt
+      vertical_between_name_and_connections: 2pt
+      bottom: 1pt
+      horizontal_between_connections: 0pt
+rendercv_settings:
+  render_command:
+    pdf_path: "resume/Putu_Gede_Pradana_Adnyana_resume.pdf"
