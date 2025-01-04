@@ -11,20 +11,18 @@ cv:
       username: pradanaadn
   sections:
     summary:
-      - "Motivated Electrical and Computer Engineering graduate with a passion for digital transformation and strong skills in software development, system design, and machine learning. Proven success in leading projects and delivering impactful solutions. Eager to join Bank BNI’s Officer Development Program (ODP) to apply technical expertise and leadership in driving innovation. Adaptable, creative, and ready to relocate and tackle new challenges across Indonesia."
+      - "Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal."
 
     education:
       - institution: Udayana University
         area: Electrical and Computer Engineering
-        degree: BEng (Sarjana Teknik / S.T)
+        degree: S.T
         start_date: 2020-09
         end_date: 2024-08
 
         highlights:
           - "**GPA**: 3.97/4.0 ([Transcripts](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
-          - "**Final Project:** Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)"
-          - "**Best Graduates** of the Faculty of Engineering, Udayana University at the 163rd Graduation"
-          - "**Coursework:** Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management"
+          - "**Coursework:** Discrete Mathematics, Calculus, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Digital Image Processing, Big Data, OOP, Database, Computer Network, Information Technology Project Management"
 
       - institution: "Mastering AI: From Foundations to Applications by Ruangguru"
         area: "Machine Learning Engineering"
@@ -41,22 +39,20 @@ cv:
         end_date: 2023-07
         highlights:
           - "GPA: 95/100 ([Transcripts](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))"
-          - "Distinction Graduates, 10% of 5000++ Cohort"
-          - "**Coursework:** Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment"
+          - "Distinction Graduates, 10% of more than 5,000."
+          - "**Coursework:** Python, Data analytics, Mathematics for Machine Learning (Linear Algebra, Calculus), Machine Learning, Deep learning with Tensorflow, ML Deployment"
 
     technical_skills:
       - label: Language
-        details: Python (Advanced), Java (Intermediate), PHP (Intermediate), Javascript (Intermediate), SQL (Intermediate), Bash (Intermediate)
-      - label: Data Analysis and Manipulation
-        details: Pandas, Numpy
-      - label: Data Vizualization
-        details: Seaborn, Matplotlib, Plotly, Tableau
+        details: Python (Advanced), C++ (Intermediate), Javascript (Intermediate), SQL (Intermediate), Bash (Intermediate)
+      - label: Data Analysis and Visualization
+        details: Pandas, Numpy, Seaborn, Matplotlib, Plotly, Tableau
       - label: Machine Learning Modeling
         details: Pytorch, Tensorflow, Sklearn, Huggingface Transformer
       - label: Large Language Model
         details: Langchain, VertexAI, OpenAI, Anthropic
       - label: API and Web Development Framework
-        details: Flask, FastAPI, Django REST API, Laravel
+        details: Flask, FastAPI, Django REST API, Laravel, Tailwind CSS, DaisyUI, Bootstrap, HTMX, Jquery
       - label: Deployment
         details: Docker, Git, Gthub Action, Streamlit, Gradio
       - label: Cloud Service
@@ -69,83 +65,95 @@ cv:
         start_date: 2024-09
         end_date: 2024-12
         highlights:
-          - "Led the development of a centralized system integrating multiple third-party AI models (e.g., OpenAI, Gemini, Anthropic), streamlining access for product and development teams and improving system efficiency by **30%**."
-          - "Implemented CI/CD pipelines to automate deployment processes, reducing deployment errors and downtime by 25%, showcasing expertise in system optimization and reliability, key for supporting scalable IT solutions in banking environments."
+          - Led the development of a centralized system integrating AI models such as OpenAI, Gemini, and Anthropic, streamlining access for product and development teams.
+          - Developed REST API endpoints for a Coding Assistant, improving engineering team access.
+          - Implemented CI/CD pipelines to automate the deployment process, reducing deployment errors by 25%.
+          - Optimized system performance by enhancing architecture, resulting in a 30% increase in efficiency.
+          - Collaborated with cross-functional teams to ensure the scalability and reliability of IT solutions in dynamic environments.
+          - Showcased expertise in system optimization, driving improvements in reliability to support Ruang Guru's digital transformation initiatives.
+
       - company: XL Axiata (X-Camp)
         position: Product Development Intern
         location: Jakarta, Indonesia
         start_date: 2024-08
         end_date: 2024-08
         highlights:
-          - "**Enhanced System Efficiency and Scalability**: Led the integration of RTSP cameras and optimized multithreaded data processing using CUDA, increasing system performance by 40% and ensuring real-time analytics for scalable monitoring solutions."
-          - "**Developed and Deployed AI-Driven Solutions**: Configured Jetson Nano for YOLO model deployment and integrated MQTT with ThingsBoard, improving system reliability and enabling faster AI-based task execution by 30%, aligning with digital transformation initiatives in financial systems."
-
+          - "Contributed to the integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40% and enabling real-time analytics."
+          - "Led research on deploying YOLO models on Jetson Nano for object detection, enhancing speed and accuracy in AI-driven solutions."
+          - "Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability."
+          - "Improved scalability of monitoring systems through optimized architecture and AI deployment strategies."
+          - "Delivered a 30% improvement in task execution speed, aligning with XL Axiata's goals for digital transformation and operational efficiency."
     certification:
-      - "[Tensorflow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)"
+      - "[TensorFlow Developer Certificate](https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1), [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69)"
     Soft_skills:
-      - Project Management, Communication, Agile development, Time management, Technical Problem Solvingg, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
-    Additional_Attributes:
-      - Willing to relocate across Indonesia, Adaptable to dynamic, multicultural work environments, Committed to driving technological innovation in financial services
+      - Project Management, Communication, Agile development, Time management, Problem Solving, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration, Data-driven Mindset
     language_proficiency:
-      - Indonesia (Native), English (Proficient, TOEFL ITP Score 500++) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
+      - Indonesia (Native), English (Proficient, TOEFL ITP Score >500) [[Certificate](https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing)]
     projects:
-      - name: Suicidal Intent Classification Using Sentiment Analysis
-        date: "([Project Link](https://github.com/pradanaadn/sucidal-text-classification))"
+      - name: "Trash Object Detection - AI-Based Waste Audit and Assistant"
+        date: "([Project Presentation](https://pitch.com/v/mangorenai-x6n96f))"
         highlights:
-          - Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98% using Transformer Based Model
-          - Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50% suicidal, 50% non-suicidal).
-          - Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
-          - "Tools Used: Python, Huggingface Transformer, Gradio"
+          - Tackled waste management issues in Bandung, addressing landfill sites exceeding 800% capacity, with AI-powered detection and monitoring solutions.
+          - Developed Catch The Trash, achieving 92% precision using YOLOv8 to classify waste types and provide actionable reuse recommendations.
+          - Created MamangHijau, an interactive chatbot powered by Qwen-MAX, to educate users on waste handling, regulations, and utilization.
+          - Designed a real-time dashboard to monitor waste quantities and types, enabling data-driven decisions for government and enterprise users.
+          - Provided actionable insights, such as identifying 60% organic waste, leading to better infrastructure planning like composting facilities.
+          - "Tools Used: Python, Streamlit, Alibaba Cloud, Ultralytics, OpenCV"
+      - name: "Capstone Project Information System"
+        date: "([Project Report](https://drive.google.com/file/d/1x37qvoekHEoIhrANusdd5onVDC--48Cn/view?usp=sharing))"
+        highlights:
+          - Designed an information system by creating database architecture with Entity-Relationship Diagrams (ERD),designing user interfaces using Figma, and conducting requirements analysis with Unified Modeling Language (UML).
+          - Developed and implemented the system within agile environments, enhancing adaptability and facilitating iterative improvements.
+          - Conducted comprehensive black-box testing and User Acceptance Testing (UAT), achieving a 93% acceptance rate in functionality.
+          - Achieved 92% validation accuracy after 10 epochs by fine-tuning pretrained layers.
+          - Optimized the system for scalability, performance, and user satisfaction through ongoing refinement and enhancement efforts.
+          - "Tools Used: Laravel, PHP, SQL, Javascript, Docker, Jquery, Bootstrap"
 
       - name: UmMeals – Maternal and Child Nutrition App
-        date: "([Project Link](https://github.com/Talenta-AI-2))"
+        date: "([Project Repository](https://www.linkedin.com/posts/pradanaadn_ummeals-deck-activity-7223282999407099904-g2PD?utm_source=share&utm_medium=member_desktop))"
         highlights:
-          - Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
-          - Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
+          - Developed an app supporting nutrition tracking for pregnant women and toddlers, featuring personalized monitoring and early stunting detection to provide better health insights.
+          - Managed all project phases from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
+          - Utilized Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, and Power BI to enhance app functionalities.
+          - Achieved recognition for innovative solutions and impactful design in the nutrition tracking domain, contributing to improved health outcomes.
           - "Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI "
-
-      - name: "Bangkit Capstone Project : Linguity, English Pronunciation Mastery App"
-        date: "([Project Link](https://github.com/Linguity))"
-        highlights:
-          - Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20%.
-          - Identified and preprocessed multiple datasets, streamlining data preparation for model training.
-          - Developed a CNN model in Python using TensorFlow, achieving a 90%+ accuracy in predicting spoken words.
-          - Deployed the model via a REST API using Flask, enabling efficient user interaction and integration.
-          - "Tools Used: Python, Tensorflow, Flask, Google Cloud Platform"
 
 design:
   theme: engineeringresumes
   font: Charter
   font_size: 10pt
-  page_size: letterpaper
+  page_size: a4paper
   color: "#091057"
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY (ODP IT BNI)
-  header_font_size: 25 pt
+  last_updated_date_style: Last updated in TODAY (Junior AI/ML and Software Engineer)
+  header_font_size: 15pt
   text_alignment: justified
   seperator_between_connections: $|$
   use_icons_for_connections: true
   margins:
     page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
+      top: 1.5cm
+      bottom: 1cm
+      left: 1cm
+      right: 1cm
     section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
+      top: 0.1cm
+      bottom: 0.1cm
     entry_area:
-      left_and_right: 0 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
+      left_and_right: 0.2cm
+      vertical_between: 0.1cm
+      date_and_location_width: 4.5cm
     highlights_area:
-      top: 0.10 cm
-      left: 0 cm
-      vertical_between_bullet_points: 0.10 cm
+      top: 0cm
+      left: 0cm
+      vertical_between_bullet_points: 0cm
     header:
-      vertical_between_name_and_connections: 5 pt
-      bottom: 5 pt
-      horizontal_between_connections: 10 pt
+      vertical_between_name_and_connections: 2pt
+      bottom: 1pt
+      horizontal_between_connections: 0pt
+rendercv_settings:
+  render_command:
+    pdf_path: "resume/Putu_Gede_Pradana_Adnyana_resume.pdf"

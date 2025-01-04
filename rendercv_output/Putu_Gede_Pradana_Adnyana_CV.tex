@@ -1,13 +1,13 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[10pt, a4paper]{article}
 
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=2 cm, % seperation between body and page edge from the top
-    bottom=2 cm, % seperation between body and page edge from the bottom
-    left=2 cm, % seperation between body and page edge from the left
-    right=2 cm, % seperation between body and page edge from the right
-    footskip=1.0 cm, % seperation between body and footer
+    top=1.5cm, % seperation between body and page edge from the top
+    bottom=1cm, % seperation between body and page edge from the bottom
+    left=1cm, % seperation between body and page edge from the left
+    right=1cm, % seperation between body and page edge from the right
+    footskip=0.5 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 \usepackage{titlesec} % for customizing section titles
@@ -68,20 +68,20 @@
     -1pt
 }{
     % top space:
-    0.3 cm
+    0.1cm
 }{
     % bottom space:
-    0.2 cm
+    0.1cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0cm,
+        parsep=0cm,
         partopsep=0pt,
         itemsep=0pt,
-        leftmargin=0 cm + 10pt
+        leftmargin=0cm + 10pt
     ]
 }{
     \end{itemize}
@@ -90,8 +90,8 @@
 
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0cm,
+        parsep=0cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=10pt
@@ -102,9 +102,9 @@
 
 \newenvironment{onecolentry}{
     \begin{adjustwidth}{
-        0 cm + 0.00001 cm
+        0.2cm + 0.00001 cm
     }{
-        0 cm + 0.00001 cm
+        0.2cm + 0.00001 cm
     }
 }{
     \end{adjustwidth}
@@ -113,7 +113,7 @@
 \newenvironment{twocolentry}[2][]{
     \onecolentry
     \def\secondColumn{#2}
-    \setcolumnwidth{\fill, 4.5 cm}
+    \setcolumnwidth{\fill, 4.5cm}
     \begin{paracol}{2}
 }{
     \switchcolumn \raggedleft \secondColumn
@@ -124,7 +124,7 @@
 \newenvironment{threecolentry}[3][]{
     \onecolentry
     \def\thirdColumn{#3}
-    \setcolumnwidth{, \fill, 4.5 cm}
+    \setcolumnwidth{, \fill, 4.5cm}
     \begin{paracol}{3}
     {\raggedright #2} \switchcolumn
 }{
@@ -142,10 +142,10 @@
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
-        \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
-        \LenToUnit{\paperheight-1.0 cm}
+        \LenToUnit{\paperwidth-1cm-0.2cm+0.05cm},
+        \LenToUnit{\paperheight-0.75 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in December 2024 (ODP IT BNI)}\hspace{\widthof{Last updated in December 2024 (ODP IT BNI)}}
+        \small\color{gray}\textit{Last updated in January 2025 (Junior AI/ML and Software Engineer)}\hspace{\widthof{Last updated in January 2025 (Junior AI/ML and Software Engineer)}}
     }}}%
   }%
 }%
@@ -167,35 +167,35 @@
 
     \placelastupdatedtext
     \begin{header}
-        \fontsize{25 pt}{25 pt}\selectfont Putu Gede Pradana Adnyana
+        \fontsize{15pt}{15pt}\selectfont Putu Gede Pradana Adnyana
 
-        \vspace{5 pt}
+        \vspace{2pt}
 
         \normalsize
         \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Badung, Bali, Indonesia}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{mailto:work.pradanaadn@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}work.pradanaadn@gmail.com}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{tel:+62-812-3737-4363}{{\footnotesize\faPhone*}\hspace*{0.13cm}0812-3737-4363}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{https://pradanaadn.github.io/about/}{{\footnotesize\faLink}\hspace*{0.13cm}pradanaadn.github.io/about}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{https://linkedin.com/in/pradanaadn}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}pradanaadn}}%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \AND%
-        \kern 5.0 pt%
+        \kern 0.0 pt%
         \mbox{\hrefWithoutArrow{https://github.com/pradanaadn}{{\footnotesize\faGithub}\hspace*{0.13cm}pradanaadn}}%
     \end{header}
 
-    \vspace{5 pt - 0.3 cm}
+    \vspace{1pt - 0.1cm}
 
 
     \section{Summary}
@@ -204,7 +204,7 @@
 
         
         \begin{onecolentry}
-            Motivated Electrical and Computer Engineering graduate with a passion for digital transformation and strong skills in software development, system design, and machine learning. Proven success in leading projects and delivering impactful solutions. Eager to join Bank BNI’s Officer Development Program (ODP) to apply technical expertise and leadership in driving innovation. Adaptable, creative, and ready to relocate and tackle new challenges across Indonesia.
+            Innovative Computer Engineering graduate with 1+ year of experience in AI-powered solutions and scalable software development. Proficient in Python with 4 years of experience and a strong background in deploying machine learning models, optimizing systems, and implementing cutting-edge technologies. Successfully contributed as an Artificial Intelligence Engineer Intern at Ruangguru, enabling seamless LLM access for all stakeholders. Willing to relocate for opportunities that align with my skills and career goal.
         \end{onecolentry}
 
 
@@ -217,27 +217,25 @@
         \begin{twocolentry}{
             Sept 2020 – Aug 2024
         }
-            \textbf{Udayana University}, BEng (Sarjana Teknik / S.T) in Electrical and Computer Engineering\end{twocolentry}
+            \textbf{Udayana University}, S.T in Electrical and Computer Engineering\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item \textbf{GPA}: 3.97/4.0 (\href{https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing}{Transcripts})
-                \item \textbf{Final Project:} Design of a Web-Based Capstone Project Information System at Udayana University Electrical Engineering Study Program (PSTE Unud)
-                \item \textbf{Best Graduates} of the Faculty of Engineering, Udayana University at the 163rd Graduation
-                \item \textbf{Coursework:} Discrete Mathemathics, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Big Data, OOP, Database, Computer Network, Information Technology Project Management
+                \item \textbf{Coursework:} Discrete Mathematics, Calculus, Data Structure, Computer Architecture, Software Engineering, Machine Learning, Digital Image Processing, Big Data, OOP, Database, Computer Network, Information Technology Project Management
             \end{highlights}
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             Mar 2024 – July 2024
         }
             \textbf{Mastering AI: From Foundations to Applications by Ruangguru}, Machine Learning Engineering\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item GPA: 90/100 (\href{https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view}{Transcripts})
@@ -246,19 +244,19 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             Feb 2023 – July 2023
         }
             \textbf{Bangkit by Google, Goto and Traveloka}, Machine Learning\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item GPA: 95/100 (\href{https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing}{Transcripts})
-                \item Distinction Graduates, 10\% of 5000++ Cohort
-                \item \textbf{Coursework:} Python, Data analytics, Mathemathics for Machine Learning, Machine Learning, Deep learning with Tensorflow, ML Deployment
+                \item Distinction Graduates, 10\% of more than 5,000.
+                \item \textbf{Coursework:} Python, Data analytics, Mathematics for Machine Learning (Linear Algebra, Calculus), Machine Learning, Deep learning with Tensorflow, ML Deployment
             \end{highlights}
         \end{onecolentry}
 
@@ -271,46 +269,40 @@
 
         
         \begin{onecolentry}
-            \textbf{Language:} Python (Advanced), Java (Intermediate), SQL (Intermediate), Bash (Intermediate)
+            \textbf{Language:} Python (Advanced), C++ (Intermediate), Javascript (Intermediate), SQL (Intermediate), Bash (Intermediate)
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
-            \textbf{Data Analysis and Manipulation:} Pandas, Numpy
+            \textbf{Data Analysis and Visualization:} Pandas, Numpy, Seaborn, Matplotlib, Plotly, Tableau
         \end{onecolentry}
 
-        \vspace{0.2 cm}
-
-        \begin{onecolentry}
-            \textbf{Data Vizualization:} Seaborn, Matplotlib, Plotly, Tableau
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Machine Learning Modeling:} Pytorch, Tensorflow, Sklearn, Huggingface Transformer
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Large Language Model:} Langchain, VertexAI, OpenAI, Anthropic
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
-            \textbf{API Development:} Flask, FastAPI, Django REST API
+            \textbf{API and Web Development Framework:} Flask, FastAPI, Django REST API, Laravel, Tailwind CSS, DaisyUI, Bootstrap, HTMX, Jquery
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Deployment:} Docker, Git, Gthub Action, Streamlit, Gradio
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{onecolentry}
             \textbf{Cloud Service:} Azure AI Service, Google Cloud Platform
@@ -328,27 +320,34 @@
         }
             \textbf{Artificial Intelligence Engineer Intern}, Ruang Guru -- Jakarta, Indonesia\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Led the development of a centralized system integrating multiple third-party AI models (e.g., OpenAI, Gemini, Anthropic), streamlining access for product and development teams and improving system efficiency by \textbf{30\%}.
-                \item Implemented CI/CD pipelines to automate deployment processes, reducing deployment errors and downtime by 25\%, showcasing expertise in system optimization and reliability, key for supporting scalable IT solutions in banking environments.
+                \item Led the development of a centralized system integrating AI models such as OpenAI, Gemini, and Anthropic, streamlining access for product and development teams.
+                \item Developed REST API endpoints for a Coding Assistant, improving engineering team access.
+                \item Implemented CI/CD pipelines to automate the deployment process, reducing deployment errors by 25\%.
+                \item Optimized system performance by enhancing architecture, resulting in a 30\% increase in efficiency.
+                \item Collaborated with cross-functional teams to ensure the scalability and reliability of IT solutions in dynamic environments.
+                \item Showcased expertise in system optimization, driving improvements in reliability to support Ruang Guru's digital transformation initiatives.
             \end{highlights}
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
             Aug 2024 – Aug 2024
         }
             \textbf{Product Development Intern}, XL Axiata (X-Camp) -- Jakarta, Indonesia\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item \textbf{Enhanced System Efficiency and Scalability}: Led the integration of RTSP cameras and optimized multithreaded data processing using CUDA, increasing system performance by 40\% and ensuring real-time analytics for scalable monitoring solutions.
-                \item \textbf{Developed and Deployed AI-Driven Solutions}: Configured Jetson Nano for YOLO model deployment and integrated MQTT with ThingsBoard, improving system reliability and enabling faster AI-based task execution by 30\%, aligning with digital transformation initiatives in financial systems.
+                \item Contributed to the integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40\% and enabling real-time analytics.
+                \item Led research on deploying YOLO models on Jetson Nano for object detection, enhancing speed and accuracy in AI-driven solutions.
+                \item Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability.
+                \item Improved scalability of monitoring systems through optimized architecture and AI deployment strategies.
+                \item Delivered a 30\% improvement in task execution speed, aligning with XL Axiata's goals for digital transformation and operational efficiency.
             \end{highlights}
         \end{onecolentry}
 
@@ -361,7 +360,7 @@
 
         
         \begin{onecolentry}
-            \href{https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1}{Tensorflow Developer Certificate}, \href{https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69}{Microsoft Certified: Azure AI Engineer Associate}
+            \href{https://www.credential.net/e5709acf-2219-4c59-8aaf-987215d069a1}{TensorFlow Developer Certificate}, \href{https://learn.microsoft.com/api/credentials/share/id-id/PradanaAdnyana-5811/2A28EA83F4251FC4?sharingId=D4E348B6E54ABB69}{Microsoft Certified: Azure AI Engineer Associate}
         \end{onecolentry}
 
 
@@ -372,18 +371,7 @@
 
         
         \begin{onecolentry}
-            Project Management, Communication, Agile development, Time management, Technical Problem Solvingg, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration
-        \end{onecolentry}
-
-
-    
-    \section{Additional Attributes}
-
-
-
-        
-        \begin{onecolentry}
-            Willing to relocate across Indonesia, Adaptable to dynamic, multicultural work environments, Committed to driving technological innovation in financial services
+            Project Management, Communication, Agile development, Time management, Problem Solving, Data Analytics, Leadership, Continuous learning, Cross-Functional Collaboration, Data-driven Mindset
         \end{onecolentry}
 
 
@@ -394,7 +382,7 @@
 
         
         \begin{onecolentry}
-            Indonesia (Native), English (Proficient, TOEFL ITP Score 500++) [\href{https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing}{Certificate}]
+            Indonesia (Native), English (Proficient, TOEFL ITP Score >500) [\href{https://drive.google.com/file/d/1w1m4vxTjOT2xaDfYtqPXp7TDrWySaDbE/view?usp=sharing}{Certificate}]
         \end{onecolentry}
 
 
@@ -405,53 +393,58 @@
 
         
         \begin{twocolentry}{
-            (\href{https://github.com/pradanaadn/sucidal-text-classification}{Project Link})
+            (\href{https://pitch.com/v/mangorenai-x6n96f}{Project Presentation})
         }
-            \textbf{Suicidal Intent Classification Using Sentiment Analysis}\end{twocolentry}
+            \textbf{Trash Object Detection - AI-Based Waste Audit and Assistant}\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed a system to classify social media content for suicidal intent to support mental health monitoring in adolescents, targeting a detection accuracy of over 98\% using Transformer Based Model
-                \item Built using Hugging Face Transformers and DistillBERT, processing a dataset of 232,074 posts (50\% suicidal, 50\% non-suicidal).
-                \item Deployed with Gradio on Hugging Face Spaces, achieving an interactive model response time of under 2 seconds.
-                \item Tools Used: Python, Huggingface Transformer, Gradio
+                \item Tackled waste management issues in Bandung, addressing landfill sites exceeding 800\% capacity, with AI-powered detection and monitoring solutions.
+                \item Developed Catch The Trash, achieving 92\% precision using YOLOv8 to classify waste types and provide actionable reuse recommendations.
+                \item Created MamangHijau, an interactive chatbot powered by Qwen-MAX, to educate users on waste handling, regulations, and utilization.
+                \item Designed a real-time dashboard to monitor waste quantities and types, enabling data-driven decisions for government and enterprise users.
+                \item Provided actionable insights, such as identifying 60\% organic waste, leading to better infrastructure planning like composting facilities.
+                \item Tools Used: Python, Streamlit, Alibaba Cloud, Ultralytics, OpenCV
             \end{highlights}
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1cm}
 
         \begin{twocolentry}{
-            (\href{https://github.com/Talenta-AI-2}{Project Link})
+            (\href{https://drive.google.com/file/d/1x37qvoekHEoIhrANusdd5onVDC--48Cn/view?usp=sharing}{Project Report})
+        }
+            \textbf{Capstone Project Information System}\end{twocolentry}
+
+        \vspace{0cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Designed an information system by creating database architecture with Entity-Relationship Diagrams (ERD),designing user interfaces using Figma, and conducting requirements analysis with Unified Modeling Language (UML).
+                \item Developed and implemented the system within agile environments, enhancing adaptability and facilitating iterative improvements.
+                \item Conducted comprehensive black-box testing and User Acceptance Testing (UAT), achieving a 93\% acceptance rate in functionality.
+                \item Achieved 92\% validation accuracy after 10 epochs by fine-tuning pretrained layers.
+                \item Optimized the system for scalability, performance, and user satisfaction through ongoing refinement and enhancement efforts.
+                \item Tools Used: Laravel, PHP, SQL, Javascript, Docker, Jquery, Bootstrap
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.1cm}
+
+        \begin{twocolentry}{
+            (\href{https://www.linkedin.com/posts/pradanaadn_ummeals-deck-activity-7223282999407099904-g2PD?utm_source=share&utm_medium=member_desktop}{Project Repository})
         }
             \textbf{UmMeals – Maternal and Child Nutrition App}\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed an app supporting nutrition tracking for pregnant women and toddlers with features like personalized monitoring and early stunting detection, leading to better health insights.
-                \item Managed all project phases, from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
+                \item Developed an app supporting nutrition tracking for pregnant women and toddlers, featuring personalized monitoring and early stunting detection to provide better health insights.
+                \item Managed all project phases from ideation and research to design and deployment, resulting in selection as a top 6 finalist out of 15 teams in the Skilvul, Biji-biji Initiative, and Microsoft Innovation Challenge 2024.
+                \item Utilized Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, and Power BI to enhance app functionalities.
+                \item Achieved recognition for innovative solutions and impactful design in the nutrition tracking domain, contributing to improved health outcomes.
                 \item Tools Used: Python, SQL with ORM using SQLAlchemy, Streamlit, Microsoft Azure AI, Power BI 
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            (\href{https://github.com/Linguity}{Project Link})
-        }
-            \textbf{Bangkit Capstone Project : Linguity, English Pronunciation Mastery App}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Led problem discovery sessions, defining actionable solutions and ensuring team alignment. Organized and facilitated regular meetings to track progress and address challenges, enhancing productivity by 20\%.
-                \item Identified and preprocessed multiple datasets, streamlining data preparation for model training.
-                \item Developed a CNN model in Python using TensorFlow, achieving a 90\%+ accuracy in predicting spoken words.
-                \item Deployed the model via a REST API using Flask, enabling efficient user interaction and integration.
-                \item Tools Used: Python, Tensorflow, Flask, Google Cloud Platform
             \end{highlights}
         \end{onecolentry}
 
