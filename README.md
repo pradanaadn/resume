@@ -1,4 +1,4 @@
-# Personal Curriculum Vitae
+# Personal Resume
 
 ```python
 pip install rendercv
