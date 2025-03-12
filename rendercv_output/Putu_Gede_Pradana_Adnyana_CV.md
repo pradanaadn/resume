@@ -2,7 +2,7 @@
 
 - Phone: +62 812 3737 4363
 - Email: [work.pradanaadn@gmail.com](mailto:work.pradanaadn@gmail.com)
-- Location: Badung, Bali, Indonesia
+- Location: Tangerang, Indonesia
 - Website: [pradanaadn.github.ioabout](https://pradanaadn.github.io/about/)
 - LinkedIn: [pradanaadn](https://linkedin.com/in/pradanaadn)
 - GitHub: [pradanaadn](https://github.com/pradanaadn)
@@ -10,7 +10,7 @@
 
 # Summary
 
-Motivated software engineer with a foundation in software development and data science, eager to contribute to the financial industry. Experienced in Python, API development, and databases, with a demonstrated ability to optimize systems. A proactive and fast learner, keen to expand expertise in areas such as the financial industry and IT security.
+Results-driven Machine Learning Engineer with 1 year of hands-on experience in developing scalable AI solutions. Proficient in Python, TensorFlow, PyTorch, and system architecture. Proven track record in optimizing models for high performance and efficiency. Passionate about continuous learning and innovation. Open to relocation.
 
 # Education
 
@@ -38,12 +38,21 @@ Motivated software engineer with a foundation in software development and data s
 - Programming Languages: **Advanced**: Python; **Intermediate**: PHP, Javascript, SQL, Bash; **Beginner**: Java
 - Data Analysis and Visualization: Pandas, Numpy, Seaborn, Matplotlib, Plotly, Tableau
 - Machine Learning Modeling: Pytorch, Tensorflow, Scikit-learn, Huggingface Transformer
-- Large Language Model: Langchain, VertexAI, OpenAI, Anthropic
+- Large Language Model: Langchain, VertexAI, OpenAI, Azure Machine Learning
 - API and Web Development Framework: Flask, FastAPI, Django REST API, Laravel, Tailwind CSS, DaisyUI, Bootstrap, HTMX, JQuery
 - Databases: MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB
 - Deployment: Docker, Git, CI/CD with GitHub Actions, Streamlit, Gradio
 - Cloud Service: Azure AI Service, Google Cloud Platform
 # Experience
+
+## Adamata Indonesia, Machine Learning Engineer Intern
+
+- Jan 2025 – present
+- Tangerang, Indonesia
+- Build data and CI/CD pipelines for machine learning models.
+- Continuously track model performance metrics.
+- Explore cutting-edge computer vision models for waste management.
+- Enhance system performance by 30% through redesign.
 
 ## Ruang Guru, Artificial Intelligence Engineer Intern
 

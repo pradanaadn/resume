@@ -1,6 +1,6 @@
 cv:
   name: "Putu Gede Pradana Adnyana"
-  location: Badung, Bali, Indonesia
+  location: Tangerang, Indonesia
   email: work.pradanaadn@gmail.com
   phone: tel:+62-812-373-743-63
   website: https://pradanaadn.github.io/about/
@@ -11,7 +11,7 @@ cv:
       username: pradanaadn
   sections:
     summary:
-      - "Motivated software engineer with a foundation in software development and data science, eager to contribute to the financial industry. Experienced in Python, API development, and databases, with a demonstrated ability to optimize systems. A proactive and fast learner, keen to expand expertise in areas such as the financial industry and IT security."
+      - "Results-driven Machine Learning Engineer with 1 year of hands-on experience in developing scalable AI solutions. Proficient in Python, TensorFlow, PyTorch, and system architecture. Proven track record in optimizing models for high performance and efficiency. Passionate about continuous learning and innovation. Open to relocation."
 
     education:
       - institution: Udayana University
@@ -50,7 +50,7 @@ cv:
       - label: Machine Learning Modeling
         details: Pytorch, Tensorflow, Scikit-learn, Huggingface Transformer
       - label: Large Language Model
-        details: Langchain, VertexAI, OpenAI, Anthropic
+        details: Langchain, VertexAI, OpenAI, Azure Machine Learning
       - label: API and Web Development Framework
         details: Flask, FastAPI, Django REST API, Laravel, Tailwind CSS, DaisyUI, Bootstrap, HTMX, JQuery
       - label: Databases
@@ -61,6 +61,17 @@ cv:
         details: Azure AI Service, Google Cloud Platform
 
     experience:
+      - company: Adamata Indonesia
+        position: Machine Learning Engineer Intern
+        location: Tangerang, Indonesia
+        start_date: 2025-01
+        end_date: 'present'
+        highlights:
+          - Build data and CI/CD pipelines for machine learning models.
+          - Continuously track model performance metrics.
+          - Explore cutting-edge computer vision models for waste management.
+          - Enhance system performance by 30% through redesign.
+        
       - company: Ruang Guru
         position: Artificial Intelligence Engineer Intern
         location: Jakarta, Indonesia
@@ -155,4 +166,4 @@ design:
       horizontal_between_connections: 0pt
 rendercv_settings:
   render_command:
-    pdf_path: "resume/Putu_Gede_Pradana_Adnyana_resume_BCA_Finance.pdf"
+    pdf_path: "resume/Putu_Gede_Pradana_Adnyana_resume_march_25.pdf"
