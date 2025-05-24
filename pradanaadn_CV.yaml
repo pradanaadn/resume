@@ -1,0 +1,266 @@
+cv:
+  name: Putu Gede Pradana Adnyana
+  location: Tangerang, Indonesia
+  email: work.pradanaadn@gmail.com
+  phone: +6281 237 374 363
+  website: https://pradanaadn.github.io
+  social_networks:
+    - network: LinkedIn
+      username: pradanaadn
+    - network: GitHub
+      username: pradanaadn
+  sections:
+    summary:
+      - AI Engineer with nearly one year of intensive internship experience and specialized training in Machine Learning. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.
+      
+    education:
+      - institution: Udayana University
+        area: Electrical and Computer Engineering
+        degree: S.T.
+        date:
+        start_date: 2020-09
+        end_date: 2024-08
+        location: Bali, Indonesia
+        summary:
+        highlights:
+          - "GPA: 3.97/4.0 ([Transcript](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
+          - "Relevant Coursework: Calculus, Statistics, Big Data, Machine Learning, Computer Vision"
+
+      - institution: "Mastering AI Bootcamp by Skill Academy"
+        area: AI Engineering
+        date:
+        start_date: 2024-03
+        end_date: 2024-06
+        location: Online
+        summary:
+        highlights:
+          - "GPA: 90/100 ([Transcript](https://drive.google.com/file/d/1zavbSHSpPOePGauqHs-WYxpkUhOqOrRa/view?usp=sharing))"
+          - "Relevant Coursework: Python, Data Cleaning, Data Visualization, Statistics, Linear algebra and Calculus, Machine Learning, Deep Learning, CNN and Computer Vision, PyTorch, NLP and Transformer, MLOps"
+      - institution: "Bangkit Academy by Google, Gojek, and Tokopedia"
+        area: Machine Learning
+        date:
+        start_date: 2023-02
+        end_date: 2023-06
+        location: Online
+        summary:
+        highlights:
+          - "GPA: 95/100 ([Transcript](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))"
+          - Top 5% of 5,000+ participants.
+          - 'Relevant Coursework:"Python, Data Analytics, Mathematics for Machine Learning (Linear Algebra, Calculus), Machine Learning, Deep Learning with Tensorflow, ML Deployment'
+    experience:
+      - company: PT. Adamata Indonesia
+        position: Machine Learning Engineer Intern
+        date:
+        start_date: 2025-01
+        end_date: present
+        location: Tangerang, Indonesia
+        summary:
+        highlights:
+          - Developed Bottle Cap Color Sorter software using Two Stage Object Detection, achieved latency under 35 ms with a 90% pick rate.
+          - Researched and implemented a Lightweight Object Detection model (Nanodet) for Bottle Cap Color Sorted.
+          - Optimized object detection with various run-time optimizations, including quantization and pruning, to improve performance on edge devices.
+          - Automated the deployment process on Raspberry Pi using Ansible, reducing deployment time by 50%.
+          - Gathered datasets from the production line and trained models to improve accuracy and performance.
+      - company: Ruang Guru
+        position: AI Engineer Intern
+        date:
+        start_date: 2024-09
+        end_date: 2024-12
+        location: Jakarta, Indonesia
+        summary:
+        highlights:
+          - Developed a web application for centralized various AI models, to be used by internal teams.
+          - Developed REST API for code generation and autocomplete and integrated with open-source coding assistant.
+          - Implemented CI/CD pipelines to automate the deployment process, reducing deployment errors by 25% and enhancing system reliability.
+          - Conducted performance testing and optimization, achieving a 30% reduction in response time for API endpoints.
+          - Documented the API endpoints and guides to set up the coding assistant, improving developer onboarding and usage.
+      - company: X-Camp by XL Axiata
+        position: Product Development Intern
+        date:
+        start_date: 2024-07
+        end_date: 2024-08
+        location: Jakarta, Indonesia
+        summary:
+        highlights:
+          - Contributed to integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40% and enabling real-time analytics.
+          - Led data collection and labeling for training datasets for object detection.
+          - Led data collection and labeling for training datasets for object detection.
+          - Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability.
+    projects:
+      - name: "[Resume Perfector](https://github.com/pradanaadn/cv-perfector)"
+        date: 2025
+        summary: Agentic AI-based resume optimization tool that helps users to improve their resumes.
+        highlights:
+          - "**Tools:** Python, llamaindex, Vertex AI, Pydantic"
+      - name: "[Trash Object Detection - AI-Based Waste Audit and Assistant](https://pitch.com/v/mangorenai-x6n96f)"
+        date: 2024
+        summary: A Hackathon project that aims to help people to sort their waste properly.
+        highlights:
+          - "**Tools:** Python, OpenCV, Alibaba Cloud, Ultralytics, Streamlit"
+      - name: "[UmMeals – Maternal and Child Nutrition App](https://www.linkedin.com/posts/pradanaadn_ummeals-deck-activity-7223282999407099904-g2PD/?utm_source=share&utm_medium=member_desktop)"
+        date: 2024
+        summary: A Hackathon project that aims to help monitoring maternal and child nutrition.
+        highlights:
+          - Achieved Top 6 in Microsoft Innovation Challenge 2024.
+          - "**Tools:** Python, Microsoft Azure AI, Power BI, and Streamlit"
+    skills:
+      - label: Programming Languages
+        details: "**Advanced:** Python; **Intermediate:** C++, Javascript, Bash, SQL, PHP, **Beginner:** Golang, Java"
+      - label: Machine Learning Modeling
+        details: Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT.
+      - label: Machine Learning Deployment
+        details: Docker, Ansible, Google Cloud, Microsoft Azure.
+      - label: API and Web Development
+        details: FastAPI, Flask, Streamlit, REST API, Laravel, Django.
+      - label: Databases
+        details: MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB
+      - label: Tools and Technologies
+        details: Git, Github Actions, Linux
+      - label: Soft Skills
+        details: Teamwork, Communication, Problem Solving, Adaptability, Time Management, Project Management
+      - label: Languages
+        details: "Bahasa Indonesia (Native), English (Professional Working Proficiency)"
+
+  certifications:
+    - details: "Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associate"
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: "|"
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE in AREA -- LOCATION"
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: "**NAME** -- **LOCATION**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: "**POSITION**, COMPANY -- LOCATION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: "2025-05-23"
+  render_command:
+  bold_keywords: []
