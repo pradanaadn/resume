@@ -2,7 +2,7 @@
 
 - Phone: +62 812 3737 4363
 - Email: [work.pradanaadn@gmail.com](mailto:work.pradanaadn@gmail.com)
-- Location: Tangerang, Indonesia
+- Location: Bali, Indonesia
 - Website: [pradanaadn.github.io](https://pradanaadn.github.io/)
 - LinkedIn: [pradanaadn](https://linkedin.com/in/pradanaadn)
 - GitHub: [pradanaadn](https://github.com/pradanaadn)
@@ -40,7 +40,7 @@ AI Engineer with nearly one year of intensive internship experience and speciali
 
 ## PT. Adamata Indonesia, Machine Learning Engineer Intern
 
-- Jan 2025 – present
+- Jan 2025 – June 2025
 - Tangerang, Indonesia
 - Developed Bottle Cap Color Sorter software using Two Stage Object Detection, achieved latency under 35 ms with a 90% pick rate.
 - Researched and implemented a Lightweight Object Detection model (Nanodet) for Bottle Cap Color Sorted.
@@ -63,7 +63,6 @@ AI Engineer with nearly one year of intensive internship experience and speciali
 - July 2024 – Aug 2024
 - Jakarta, Indonesia
 - Contributed to integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40% and enabling real-time analytics.
-- Led data collection and labeling for training datasets for object detection.
 - Led data collection and labeling for training datasets for object detection.
 - Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability.
 

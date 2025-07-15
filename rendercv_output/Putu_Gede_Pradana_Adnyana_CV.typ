@@ -3,7 +3,7 @@
 
 #let name = "Putu Gede Pradana Adnyana"
 #let locale-catalog-page-numbering-style = context { "Putu Gede Pradana Adnyana - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in May 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in July 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
@@ -451,7 +451,7 @@
 
 // Print connections:
 #let connections-list = (
-  [Tangerang, Indonesia],
+  [Bali, Indonesia],
   [#box(original-link("mailto:work.pradanaadn@gmail.com")[work.pradanaadn\@gmail.com])],
   [#box(original-link("tel:+62-812-3737-4363")[0812-3737-4363])],
   [#box(original-link("https://pradanaadn.github.io/")[pradanaadn.github.io])],
@@ -545,7 +545,7 @@
     #strong[Machine Learning Engineer Intern], PT. Adamata Indonesia -- Tangerang, Indonesia
   ],
   right-content: [
-    Jan 2025 – present
+    Jan 2025 – June 2025
   ],
 )
 #one-col-entry(
@@ -580,7 +580,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Contributed to integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40\% and enabling real-time analytics.],[Led data collection and labeling for training datasets for object detection.],[Led data collection and labeling for training datasets for object detection.],[Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability.],)
+    #v(design-highlights-top-margin);#highlights([Contributed to integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40\% and enabling real-time analytics.],[Led data collection and labeling for training datasets for object detection.],[Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability.],)
   ],
 )
 

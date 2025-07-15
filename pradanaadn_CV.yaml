@@ -1,6 +1,6 @@
 cv:
   name: Putu Gede Pradana Adnyana
-  location: Tangerang, Indonesia
+  location: Bali, Indonesia
   email: work.pradanaadn@gmail.com
   phone: +6281 237 374 363
   website: https://pradanaadn.github.io
@@ -52,7 +52,7 @@ cv:
         position: Machine Learning Engineer Intern
         date:
         start_date: 2025-01
-        end_date: present
+        end_date: 2025-06
         location: Tangerang, Indonesia
         summary:
         highlights:
@@ -83,7 +83,6 @@ cv:
         summary:
         highlights:
           - Contributed to integration of RTSP cameras for object detection and optimized multithreaded data processing using CUDA, improving system performance by 40% and enabling real-time analytics.
-          - Led data collection and labeling for training datasets for object detection.
           - Led data collection and labeling for training datasets for object detection.
           - Configured MQTT protocols and integrated them with ThingsBoard, ensuring seamless data communication and system reliability.
     projects:
@@ -261,6 +260,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: "2025-05-23"
+  date: "2025-07-15"
   render_command:
   bold_keywords: []
