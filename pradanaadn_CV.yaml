@@ -47,7 +47,22 @@ cv:
           - "GPA: 95/100 ([Transcript](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))"
           - Top 5% of 5,000+ participants.
           - 'Relevant Coursework:"Python, Data Analytics, Mathematics for Machine Learning (Linear Algebra, Calculus), Machine Learning, Deep Learning with Tensorflow, ML Deployment'
+    
     experience:
+      - company: WWWaste PTE. LTD
+        position: AI/ML Engineer (Contract)
+        date:
+        start_date: 2025-07
+        end_date: present 
+        location: Bali, Indonesia
+        summary:
+        highlights:
+          - Built and deployed data insight pipelines with Langchain, enabling actionable business decisions from large datasets.
+          - Developed and deployed time series forecasting (ARIMA, SARIMA, Prophet, LightGBM, XGBoost) for user waste generation, achieving RMSE of 1.2.
+          - Created object detection models for waste category (YOLO, mAP50 95%) and brand detection (zero-shot classification), including data collection and training.
+          - Integrated LLM observability (Langfuse), optimized REST API (FastAPI) with Redis caching, reducing token usage by 90% and response time by 99.7%.
+
+
       - company: PT. Adamata Indonesia
         position: Machine Learning Engineer Intern
         date:

@@ -542,6 +542,21 @@
 
 #two-col-entry(
   left-content: [
+    #strong[AI\/ML Engineer \(Contract\)], WWWaste PTE. LTD -- Bali, Indonesia
+  ],
+  right-content: [
+    July 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Built and deployed data insight pipelines with Langchain, enabling actionable business decisions from large datasets.],[Developed and deployed time series forecasting \(ARIMA, SARIMA, Prophet, LightGBM, XGBoost\) for user waste generation, achieving RMSE of 1.2.],[Created object detection models for waste category \(YOLO, mAP50 95\%\) and brand detection \(zero-shot classification\), including data collection and training.],[Integrated LLM observability \(Langfuse\), optimized REST API \(FastAPI\) with Redis caching, reducing token usage by 90\% and response time by 99.7\%.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Machine Learning Engineer Intern], PT. Adamata Indonesia -- Tangerang, Indonesia
   ],
   right-content: [

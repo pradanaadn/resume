@@ -38,6 +38,15 @@ AI Engineer with nearly one year of intensive internship experience and speciali
 
 # Experience
 
+## WWWaste PTE. LTD, AI/ML Engineer (Contract)
+
+- July 2025 – present
+- Bali, Indonesia
+- Built and deployed data insight pipelines with Langchain, enabling actionable business decisions from large datasets.
+- Developed and deployed time series forecasting (ARIMA, SARIMA, Prophet, LightGBM, XGBoost) for user waste generation, achieving RMSE of 1.2.
+- Created object detection models for waste category (YOLO, mAP50 95%) and brand detection (zero-shot classification), including data collection and training.
+- Integrated LLM observability (Langfuse), optimized REST API (FastAPI) with Redis caching, reducing token usage by 90% and response time by 99.7%.
+
 ## PT. Adamata Indonesia, Machine Learning Engineer Intern
 
 - Jan 2025 – June 2025
