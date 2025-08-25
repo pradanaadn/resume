@@ -3,7 +3,7 @@
 
 #let name = "Putu Gede Pradana Adnyana"
 #let locale-catalog-page-numbering-style = context { "Putu Gede Pradana Adnyana - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in July 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Aug 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
@@ -466,7 +466,7 @@
 
 
 #one-col-entry(
-  content: [AI Engineer with nearly one year of intensive internship experience and specialized training in Machine Learning. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.]
+  content: [AI Engineer with #strong[1++ years] of experience in Machine Learning and LLM applications. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.]
 )
 
 
@@ -550,7 +550,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built and deployed data insight pipelines with Langchain, enabling actionable business decisions from large datasets.],[Developed and deployed time series forecasting \(ARIMA, SARIMA, Prophet, LightGBM, XGBoost\) for user waste generation, achieving RMSE of 1.2.],[Created object detection models for waste category \(YOLO, mAP50 95\%\) and brand detection \(zero-shot classification\), including data collection and training.],[Integrated LLM observability \(Langfuse\), optimized REST API \(FastAPI\) with Redis caching, reducing token usage by 90\% and response time by 99.7\%.],)
+    #v(design-highlights-top-margin);#highlights([Built and deployed ETL pipelines for LLM context enrichment and insight generation, leveraging Langchain to transform large datasets into actionable business decisions.],[Developed and deployed time series forecasting \(ARIMA, SARIMA, Prophet, LightGBM, XGBoost\) for user waste generation, achieving RMSE of 1.2.],[Created and deployed object detection models for waste category \(YOLO, mAP50 95\%\) and brand detection \(zero-shot classification\) on AWS SageMaker, including data collection and training.],[Integrated LLM observability \(Langfuse\), optimized REST API \(FastAPI\) with Redis caching, reducing token usage by 90\% and response time by 99.7\%.],)
   ],
 )
 
@@ -565,7 +565,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed Bottle Cap Color Sorter software using Two Stage Object Detection, achieved latency under 35 ms with a 90\% pick rate.],[Researched and implemented a Lightweight Object Detection model \(Nanodet\) for Bottle Cap Color Sorted.],[Optimized object detection with various run-time optimizations, including quantization and pruning, to improve performance on edge devices.],[Automated the deployment process on Raspberry Pi using Ansible, reducing deployment time by 50\%.],[Gathered datasets from the production line and trained models to improve accuracy and performance.],)
+    #v(design-highlights-top-margin);#highlights([Developed Bottle Cap Color Sorter software using Two Stage Object Detection, achieved latency under 35 ms with a 90\% pick rate.],[Researched and implemented a Lightweight Object Detection model \(Nanodet\) for Bottle Cap Color Sorted.],[Optimized object detection with various run-time optimizations, including quantization and pruning, to improve performance on edge devices.],[Automated the deployment process on Raspberry Pi using Ansible, reducing deployment time by 50\%.],[Gathered and Annotated datasets from the production line and trained models to improve accuracy and performance.],)
   ],
 )
 
@@ -606,7 +606,7 @@
 
 #two-col-entry(
   left-content: [
-    #link("https://github.com/pradanaadn/cv-perfector")[#strong[Resume Perfector]] 
+    #link("https://github.com/TemanWisata")[#strong[Teman Wisata]] 
   ],
   right-content: [
     2025
@@ -614,9 +614,26 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Agentic AI-based resume optimization tool that helps users to improve their resumes.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Tourism recommendation system deployed on Biznet Gio Cloud.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[Tools:] Python, llamaindex, Vertex AI, Pydantic],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[Tools:] Python, Pytorch, MLFLow, Redis, Supabase, Scikit-learn, Fastapi, Docker, K3S, Typescript, Tailwindcss, Daisyui, Alpinejs, Vite ],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #link("https://github.com/SafeFlood")[#strong[SafeFlood]] 
+  ],
+  right-content: [
+    2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Predictive flood monitoring and management system using Machine Learning and Google Earth Engine.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[Tools:] Python, Google Earth Engine, Reflex, Leaflet JS, Scikit Learn, Tensorflow, Github Action],)
   ],
 )
 
@@ -660,23 +677,23 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming Languages:] #strong[Advanced:] Python; #strong[Intermediate:] C++, Javascript, Bash, SQL, PHP, #strong[Beginner:] Golang, Java]
+  content: [#strong[Programming Languages:] #strong[Advanced:] Python; #strong[Intermediate:] C++, Javascript, Bash, SQL, PHP, Typescript]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Machine Learning Modeling:] Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT]
+  content: [#strong[Machine Learning Modeling:] Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT, XGBoost, LightGBM]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Machine Learning Deployment:] Docker, Ansible, Google Cloud, Microsoft Azure]
+  content: [#strong[Machine Learning Deployment:] Docker, Ansible, Google Cloud, Microsoft Azure, MLFlow, CometML, AWS Sagemaker, Vertex AI]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[API and Web Development:] FastAPI, Flask, Streamlit, REST API, Laravel, Django]
+  content: [#strong[API and Web Development:] FastAPI, Flask, Streamlit, Gradio, REST API, Laravel, Django, Express JS]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Databases:] MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB]
+  content: [#strong[Databases:] MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB, Supabase, Redis]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

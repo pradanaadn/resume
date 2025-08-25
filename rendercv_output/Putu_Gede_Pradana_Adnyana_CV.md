@@ -10,7 +10,7 @@
 
 # Summary
 
-AI Engineer with nearly one year of intensive internship experience and specialized training in Machine Learning. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.
+AI Engineer with **1++ years** of experience in Machine Learning and LLM applications. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.
 
 # Education
 
@@ -42,9 +42,9 @@ AI Engineer with nearly one year of intensive internship experience and speciali
 
 - July 2025 – present
 - Bali, Indonesia
-- Built and deployed data insight pipelines with Langchain, enabling actionable business decisions from large datasets.
+- Built and deployed ETL pipelines for LLM context enrichment and insight generation, leveraging Langchain to transform large datasets into actionable business decisions.
 - Developed and deployed time series forecasting (ARIMA, SARIMA, Prophet, LightGBM, XGBoost) for user waste generation, achieving RMSE of 1.2.
-- Created object detection models for waste category (YOLO, mAP50 95%) and brand detection (zero-shot classification), including data collection and training.
+- Created and deployed object detection models for waste category (YOLO, mAP50 95%) and brand detection (zero-shot classification) on AWS SageMaker, including data collection and training.
 - Integrated LLM observability (Langfuse), optimized REST API (FastAPI) with Redis caching, reducing token usage by 90% and response time by 99.7%.
 
 ## PT. Adamata Indonesia, Machine Learning Engineer Intern
@@ -55,7 +55,7 @@ AI Engineer with nearly one year of intensive internship experience and speciali
 - Researched and implemented a Lightweight Object Detection model (Nanodet) for Bottle Cap Color Sorted.
 - Optimized object detection with various run-time optimizations, including quantization and pruning, to improve performance on edge devices.
 - Automated the deployment process on Raspberry Pi using Ansible, reducing deployment time by 50%.
-- Gathered datasets from the production line and trained models to improve accuracy and performance.
+- Gathered and Annotated datasets from the production line and trained models to improve accuracy and performance.
 
 ## Ruang Guru, AI Engineer Intern
 
@@ -77,10 +77,15 @@ AI Engineer with nearly one year of intensive internship experience and speciali
 
 # Projects
 
-## [Resume Perfector](https://github.com/pradanaadn/cv-perfector)
+## [Teman Wisata](https://github.com/TemanWisata)
 
 - 2025
-- **Tools:** Python, llamaindex, Vertex AI, Pydantic
+- **Tools:** Python, Pytorch, MLFLow, Redis, Supabase, Scikit-learn, Fastapi, Docker, K3S, Typescript, Tailwindcss, Daisyui, Alpinejs, Vite 
+
+## [SafeFlood](https://github.com/SafeFlood)
+
+- 2025
+- **Tools:** Python, Google Earth Engine, Reflex, Leaflet JS, Scikit Learn, Tensorflow, Github Action
 
 ## [Trash Object Detection - AI-Based Waste Audit and Assistant](https://pitch.com/v/mangorenai-x6n96f)
 
@@ -95,11 +100,11 @@ AI Engineer with nearly one year of intensive internship experience and speciali
 
 # Skills
 
-- Programming Languages: **Advanced:** Python; **Intermediate:** C++, Javascript, Bash, SQL, PHP, **Beginner:** Golang, Java
-- Machine Learning Modeling: Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT.
-- Machine Learning Deployment: Docker, Ansible, Google Cloud, Microsoft Azure.
-- API and Web Development: FastAPI, Flask, Streamlit, REST API, Laravel, Django.
-- Databases: MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB
+- Programming Languages: **Advanced:** Python; **Intermediate:** C++, Javascript, Bash, SQL, PHP, Typescript
+- Machine Learning Modeling: Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT, XGBoost, LightGBM.
+- Machine Learning Deployment: Docker, Ansible, Google Cloud, Microsoft Azure, MLFlow, CometML, AWS Sagemaker, Vertex AI.
+- API and Web Development: FastAPI, Flask, Streamlit, Gradio, REST API, Laravel, Django, Express JS.
+- Databases: MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB, Supabase, Redis
 - Tools and Technologies: Git, Github Actions, Linux
 - Soft Skills: Teamwork, Communication, Problem Solving, Adaptability, Time Management, Project Management
 - Languages: Bahasa Indonesia (Native), English (Professional Working Proficiency)
