@@ -1,17 +1,20 @@
-name: Create releases for specific tags
+name: Build CV and Create Releases
 
 on:
   push:
     tags:
       - 'v-ds-*'
       - 'v-*'
+    branches:
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  release:
-    name: Create releases for matching tags
+  build:
+    name: Build CV and create release if tagged
     runs-on: ubuntu-22.04
 
     steps:
@@ -20,22 +23,53 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for better tag handling
 
-      - name: Extract tag name
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install uv
+          uv sync
+
+      - name: Render CV if needed
+        run: |
+          if [ ! -f "rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf" ]; then
+            echo "CV files not found, rendering..."
+            uv run rendercv render pradanaadn_CV.yaml
+          else
+            echo "CV files already exist, skipping render"
+          fi
+
+      - name: Extract tag name or use commit info
         id: extract_tag
         run: |
-          TAG_NAME=${GITHUB_REF#refs/tags/}
-          echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
-          
-          # Convert v-ds-x.x.x to "Data Scientist Version x.x.x"
-          if [[ $TAG_NAME == v-ds-* ]]; then
-            VERSION=${TAG_NAME#v-ds-}
-            TITLE="DS v.$VERSION"
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
+            # This is a tag push
+            TAG_NAME=${GITHUB_REF#refs/tags/}
+            echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
+            echo "is_tag=true" >> $GITHUB_OUTPUT
+            
+            # Convert v-ds-x.x.x to "Data Scientist Version x.x.x"
+            if [[ $TAG_NAME == v-ds-* ]]; then
+              VERSION=${TAG_NAME#v-ds-}
+              TITLE="DS v.$VERSION"
+            else
+              VERSION=${TAG_NAME#v-}
+              TITLE="$VERSION"
+            fi
+            
+            echo "version=$TITLE" >> $GITHUB_OUTPUT
           else
-            VERSION=${TAG_NAME#v-}
-            TITLE="$VERSION"
+            # This is a branch push or manual trigger
+            COMMIT_SHA=${GITHUB_SHA:0:8}
+            TAG_NAME="dev-$COMMIT_SHA"
+            echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
+            echo "is_tag=false" >> $GITHUB_OUTPUT
+            echo "version=Development Build ($COMMIT_SHA)" >> $GITHUB_OUTPUT
           fi
-          
-          echo "version=$TITLE" >> $GITHUB_OUTPUT
       - name: Read and sanitize release note
         id: release_note
         run: |
@@ -64,6 +98,7 @@ jobs:
             echo "::warning::PDF file not found at $PDF_PATH"
           fi
       - name: Create release
+        if: steps.extract_tag.outputs.is_tag == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -76,3 +111,14 @@ jobs:
             --title="${{ steps.extract_tag.outputs.version }}" \
             --notes-file=rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md \
             ./rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf
+      
+      - name: Upload artifacts for development builds
+        if: steps.extract_tag.outputs.is_tag == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-${{ steps.extract_tag.outputs.tag_name }}
+          path: |
+            rendercv_output/Putu_Gede_Pradana_Adnyana_CV.pdf
+            rendercv_output/Putu_Gede_Pradana_Adnyana_CV.md
+            rendercv_output/Putu_Gede_Pradana_Adnyana_CV.html
+          retention-days: 30
