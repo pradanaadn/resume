@@ -11,8 +11,8 @@ cv:
       username: pradanaadn
   sections:
     summary:
-      - AI Engineer with **1++ years** of experience in Machine Learning and LLM applications. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.
-
+      - Python Developer with **4+ years** hands on experience specializing in data science, machine learning, and AI engineering. Experienced in building scalable data pipelines, deploying ML models, and optimizing APIs for business insights. Strong in SQL/PostgreSQL, FastAPI, and cloud deployment. Willing to work on-site in Karawaci, Tangerang.
+    
     education:
       - institution: Udayana University
         area: Electrical and Computer Engineering
@@ -24,7 +24,7 @@ cv:
         summary:
         highlights:
           - "GPA: 3.97/4.0 ([Transcript](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))"
-          - "Relevant Coursework: Calculus, Statistics, Big Data, Machine Learning, Computer Vision"
+          - "Relevant Coursework: Calculus, Statistics, Big Data, Machine Learning, Computer Vision, Databases"
 
       - institution: "Mastering AI Bootcamp by Skill Academy"
         area: AI Engineering
@@ -47,7 +47,10 @@ cv:
           - "GPA: 95/100 ([Transcript](https://drive.google.com/file/d/1JOm2b6ws9PepLZTCV8uZDdDENN64KT7d/view?usp=sharing))"
           - Top 5% of 5,000+ participants.
           - 'Relevant Coursework:"Python, Data Analytics, Mathematics for Machine Learning (Linear Algebra, Calculus), Machine Learning, Deep Learning with Tensorflow, ML Deployment'
-
+    certification:
+    - bullet: "TensorFlow Developer Certificate"
+    - bullet: "Microsoft Certified: Azure AI Engineer Associate"
+    
     experience:
       - company: WWWaste PTE. LTD
         position: AI/ML Engineer (Contract)
@@ -59,7 +62,7 @@ cv:
         highlights:
           - Built and deployed ETL pipelines for LLM context enrichment and insight generation, leveraging Langchain to transform large datasets into actionable business decisions.
           - Developed and deployed time series forecasting (ARIMA, SARIMA, Prophet, LightGBM, XGBoost) for user waste generation, achieving RMSE of 1.2.
-          - Created and deployed object detection models for waste category (YOLO, mAP50 95%) and brand detection (zero-shot classification) on AWS SageMaker, including data collection and training.
+          - Created and deployed object detection models for waste category (YOLO with mAP50 95%) and brand detection (zero-shot classification) on AWS SageMaker, including data collection and training.
           - Integrated LLM observability (Langfuse), optimized REST API (FastAPI) with Redis caching, reducing token usage by 90% and response time by 99.7%.
 
       - company: PT. Adamata Indonesia
@@ -123,24 +126,27 @@ cv:
           - "**Tools:** Python, Microsoft Azure AI, Power BI, and Streamlit"
     skills:
       - label: Programming Languages
-        details: "**Advanced:** Python; **Intermediate:** C++, Javascript, Bash, SQL, PHP, Typescript"
-      - label: Machine Learning Modeling
-        details: Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT, XGBoost, LightGBM.
-      - label: Machine Learning Deployment
-        details: Docker, Ansible, Google Cloud, Microsoft Azure, MLFlow, CometML, AWS Sagemaker, Vertex AI.
-      - label: API and Web Development
-        details: FastAPI, Flask, Streamlit, Gradio, REST API, Laravel, Django, Express JS.
-      - label: Databases
-        details: MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB, Supabase, Redis
-      - label: Tools and Technologies
-        details: Git, Github Actions, Linux
+        details: "**Advanced:** Python, SQL; **Intermediate:** C++, JavaScript, Bash, PHP, TypeScript"
+      - label: Data Science & Machine Learning
+        details: "Pandas, NumPy, SciPy, scikit-learn, PyTorch, TensorFlow, Keras, XGBoost, LightGBM, MLflow, CometML, Huggingface Transformers, OpenCV, OpenVINO"
+      - label: Backend & API Development
+        details: "FastAPI (async), Flask, REST API, Docker, Redis"
+      - label: Database Management
+        details: "PostgreSQL, Supabase, MySQL, MongoDB"
+      - label: Cloud & MLOps
+        details: "AWS SageMaker, Google Cloud, Microsoft Azure, Vertex AI, Ansible, GitHub Actions, CI/CD"
+      - label: Engineering Practices
+        details: "pytest, mypy, ruff, black, Git, Linux"
+      - label: Visualization & Web
+        details: "Streamlit, Gradio, Power BI, Leaflet.js"
       - label: Soft Skills
-        details: Teamwork, Communication, Problem Solving, Adaptability, Time Management, Project Management
+        details: "Teamwork, Communication, Analytical Problem-Solving, Adaptability, Project Management, Fast Learner"
       - label: Languages
         details: "Bahasa Indonesia (Native), English (Professional Working Proficiency)"
 
-  certifications:
-    - details: "Tensorflow Developer Certificate, Microsoft Certified: Azure AI Engineer Associate"
+  
+
+  
 design:
   theme: engineeringresumes
   page:

@@ -466,7 +466,7 @@
 
 
 #one-col-entry(
-  content: [AI Engineer with #strong[1++ years] of experience in Machine Learning and LLM applications. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.]
+  content: [Python Developer with #strong[4+ years] hands on experience specializing in data science, machine learning, and AI engineering. Experienced in building scalable data pipelines, deploying ML models, and optimizing APIs for business insights. Strong in SQL\/PostgreSQL, FastAPI, and cloud deployment. Willing to work on-site in Karawaci, Tangerang.]
 )
 
 
@@ -485,7 +485,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([GPA: 3.97\/4.0 \(#link("https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing")[Transcript]\)],[Relevant Coursework: Calculus, Statistics, Big Data, Machine Learning, Computer Vision],)
+    #v(design-highlights-top-margin);#highlights([GPA: 3.97\/4.0 \(#link("https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing")[Transcript]\)],[Relevant Coursework: Calculus, Statistics, Big Data, Machine Learning, Computer Vision, Databases],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -537,6 +537,18 @@
 
 
 
+== Certification
+
+
+#one-col-entry(
+  content: [- TensorFlow Developer Certificate],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- Microsoft Certified: Azure AI Engineer Associate],
+)
+
+
 == Experience
 
 
@@ -550,7 +562,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built and deployed ETL pipelines for LLM context enrichment and insight generation, leveraging Langchain to transform large datasets into actionable business decisions.],[Developed and deployed time series forecasting \(ARIMA, SARIMA, Prophet, LightGBM, XGBoost\) for user waste generation, achieving RMSE of 1.2.],[Created and deployed object detection models for waste category \(YOLO, mAP50 95\%\) and brand detection \(zero-shot classification\) on AWS SageMaker, including data collection and training.],[Integrated LLM observability \(Langfuse\), optimized REST API \(FastAPI\) with Redis caching, reducing token usage by 90\% and response time by 99.7\%.],)
+    #v(design-highlights-top-margin);#highlights([Built and deployed ETL pipelines for LLM context enrichment and insight generation, leveraging Langchain to transform large datasets into actionable business decisions.],[Developed and deployed time series forecasting \(ARIMA, SARIMA, Prophet, LightGBM, XGBoost\) for user waste generation, achieving RMSE of 1.2.],[Created and deployed object detection models for waste category \(YOLO with mAP50 95\%\) and brand detection \(zero-shot classification\) on AWS SageMaker, including data collection and training.],[Integrated LLM observability \(Langfuse\), optimized REST API \(FastAPI\) with Redis caching, reducing token usage by 90\% and response time by 99.7\%.],)
   ],
 )
 
@@ -677,31 +689,35 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming Languages:] #strong[Advanced:] Python; #strong[Intermediate:] C++, Javascript, Bash, SQL, PHP, Typescript]
+  content: [#strong[Programming Languages:] #strong[Advanced:] Python, SQL; #strong[Intermediate:] C++, JavaScript, Bash, PHP, TypeScript]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Machine Learning Modeling:] Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT, XGBoost, LightGBM]
+  content: [#strong[Data Science & Machine Learning:] Pandas, NumPy, SciPy, scikit-learn, PyTorch, TensorFlow, Keras, XGBoost, LightGBM, MLflow, CometML, Huggingface Transformers, OpenCV, OpenVINO]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Machine Learning Deployment:] Docker, Ansible, Google Cloud, Microsoft Azure, MLFlow, CometML, AWS Sagemaker, Vertex AI]
+  content: [#strong[Backend & API Development:] FastAPI \(async\), Flask, REST API, Docker, Redis]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[API and Web Development:] FastAPI, Flask, Streamlit, Gradio, REST API, Laravel, Django, Express JS]
+  content: [#strong[Database Management:] PostgreSQL, Supabase, MySQL, MongoDB]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Databases:] MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB, Supabase, Redis]
+  content: [#strong[Cloud & MLOps:] AWS SageMaker, Google Cloud, Microsoft Azure, Vertex AI, Ansible, GitHub Actions, CI\/CD]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Tools and Technologies:] Git, Github Actions, Linux]
+  content: [#strong[Engineering Practices:] pytest, mypy, ruff, black, Git, Linux]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Soft Skills:] Teamwork, Communication, Problem Solving, Adaptability, Time Management, Project Management]
+  content: [#strong[Visualization & Web:] Streamlit, Gradio, Power BI, Leaflet.js]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Soft Skills:] Teamwork, Communication, Analytical Problem-Solving, Adaptability, Project Management, Fast Learner]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

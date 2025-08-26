@@ -10,7 +10,7 @@
 
 # Summary
 
-AI Engineer with **1++ years** of experience in Machine Learning and LLM applications. Proven ability in developing and deploying high-performance object detection models, such as a Bottle Cap Color Sorter achieving under 35ms latency on edge hardware. Expertise includes implementing lightweight object detection architectures and leveraging run-time optimizations like quantization and pruning to ensure efficient model performance on resource-constrained devices.
+Python Developer with **4+ years** hands on experience specializing in data science, machine learning, and AI engineering. Experienced in building scalable data pipelines, deploying ML models, and optimizing APIs for business insights. Strong in SQL/PostgreSQL, FastAPI, and cloud deployment. Willing to work on-site in Karawaci, Tangerang.
 
 # Education
 
@@ -19,7 +19,7 @@ AI Engineer with **1++ years** of experience in Machine Learning and LLM applica
 - Sept 2020 – Aug 2024
 - Bali, Indonesia
 - GPA: 3.97/4.0 ([Transcript](https://drive.google.com/file/d/1pP8v7Sbi2i_VDCOLNyjXUbzSdkNwGF2a/view?usp=sharing))
-- Relevant Coursework: Calculus, Statistics, Big Data, Machine Learning, Computer Vision
+- Relevant Coursework: Calculus, Statistics, Big Data, Machine Learning, Computer Vision, Databases
 
 ## Mastering AI Bootcamp by Skill Academy, AI Engineering
 
@@ -36,6 +36,10 @@ AI Engineer with **1++ years** of experience in Machine Learning and LLM applica
 - Top 5% of 5,000+ participants.
 - Relevant Coursework:"Python, Data Analytics, Mathematics for Machine Learning (Linear Algebra, Calculus), Machine Learning, Deep Learning with Tensorflow, ML Deployment
 
+# Certification
+
+- TensorFlow Developer Certificate
+- Microsoft Certified: Azure AI Engineer Associate
 # Experience
 
 ## WWWaste PTE. LTD, AI/ML Engineer (Contract)
@@ -44,7 +48,7 @@ AI Engineer with **1++ years** of experience in Machine Learning and LLM applica
 - Bali, Indonesia
 - Built and deployed ETL pipelines for LLM context enrichment and insight generation, leveraging Langchain to transform large datasets into actionable business decisions.
 - Developed and deployed time series forecasting (ARIMA, SARIMA, Prophet, LightGBM, XGBoost) for user waste generation, achieving RMSE of 1.2.
-- Created and deployed object detection models for waste category (YOLO, mAP50 95%) and brand detection (zero-shot classification) on AWS SageMaker, including data collection and training.
+- Created and deployed object detection models for waste category (YOLO with mAP50 95%) and brand detection (zero-shot classification) on AWS SageMaker, including data collection and training.
 - Integrated LLM observability (Langfuse), optimized REST API (FastAPI) with Redis caching, reducing token usage by 90% and response time by 99.7%.
 
 ## PT. Adamata Indonesia, Machine Learning Engineer Intern
@@ -100,11 +104,12 @@ AI Engineer with **1++ years** of experience in Machine Learning and LLM applica
 
 # Skills
 
-- Programming Languages: **Advanced:** Python; **Intermediate:** C++, Javascript, Bash, SQL, PHP, Typescript
-- Machine Learning Modeling: Pytorch, Tensorflow, Keras, Scikit-learn, Huggingface Transformer, OpenCV, Openvino, LiteRT, XGBoost, LightGBM.
-- Machine Learning Deployment: Docker, Ansible, Google Cloud, Microsoft Azure, MLFlow, CometML, AWS Sagemaker, Vertex AI.
-- API and Web Development: FastAPI, Flask, Streamlit, Gradio, REST API, Laravel, Django, Express JS.
-- Databases: MySQL, PostgreSQL, SQLite, MongoDB, ChromaDB, Supabase, Redis
-- Tools and Technologies: Git, Github Actions, Linux
-- Soft Skills: Teamwork, Communication, Problem Solving, Adaptability, Time Management, Project Management
+- Programming Languages: **Advanced:** Python, SQL; **Intermediate:** C++, JavaScript, Bash, PHP, TypeScript
+- Data Science & Machine Learning: Pandas, NumPy, SciPy, scikit-learn, PyTorch, TensorFlow, Keras, XGBoost, LightGBM, MLflow, CometML, Huggingface Transformers, OpenCV, OpenVINO
+- Backend & API Development: FastAPI (async), Flask, REST API, Docker, Redis
+- Database Management: PostgreSQL, Supabase, MySQL, MongoDB
+- Cloud & MLOps: AWS SageMaker, Google Cloud, Microsoft Azure, Vertex AI, Ansible, GitHub Actions, CI/CD
+- Engineering Practices: pytest, mypy, ruff, black, Git, Linux
+- Visualization & Web: Streamlit, Gradio, Power BI, Leaflet.js
+- Soft Skills: Teamwork, Communication, Analytical Problem-Solving, Adaptability, Project Management, Fast Learner
 - Languages: Bahasa Indonesia (Native), English (Professional Working Proficiency)
